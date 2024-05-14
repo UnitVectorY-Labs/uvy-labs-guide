@@ -7,7 +7,9 @@ nav_order: 1
 
 # Code Coverage
 
-One of the key predictors of high quality code is effective test coverage.  UnitVectorY Labs applications written in Java use the JaCoCo library to measure code coverage.  The following are the steps to add code coverage to a Java project.
+One of the key predictors of high quality code is effective test coverage.  UnitVectorY Labs applications written in Java use the JaCoCo library to measure code coverage.  To assist with the analysis of code coverage, the [Codecov](https://about.codecov.io/) service is used to provide a visual representation of the code coverage.
+
+The following are the steps to add code coverage to a Java project.
 
 ## Add JaCoCo to the POM file
 
@@ -47,4 +49,10 @@ Add the following to the GitHub Actions workflow file to upload the code coverag
         slug: UnitVectorY-Labs/fileparamunit
 ```
 
-The above example is taken from: https://github.com/UnitVectorY-Labs/fileparamunit/blob/main/.github/workflows/build.yml
+The above example is taken from https://github.com/UnitVectorY-Labs/fileparamunit/blob/main/.github/workflows/build.yml where a complete example can be found.
+
+This requires a CODECOV_TOKEN to be added to the GitHub repository actions secret.
+
+## Add the Code Coverage Badge
+
+Add the following [badge]({{ site.baseurl }}{% link bestpractices/badges.md %}) to the README.md file to display the code coverage.  Follow the instructions for [status badges](https://docs.codecov.com/docs/status-badges) from Codecov.

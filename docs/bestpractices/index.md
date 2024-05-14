@@ -4,7 +4,6 @@ title: Best Practices
 nav_order: 3
 has_children: true
 permalink: /bestpractices
-nav_fold: false
 ---
 
 # Best Practices
