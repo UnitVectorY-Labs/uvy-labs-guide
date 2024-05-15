@@ -2,7 +2,6 @@
 layout: default
 title: Code Coverage
 parent: Java Development
-nav_order: 1
 ---
 
 # Code Coverage
@@ -49,7 +48,8 @@ Add the following to the GitHub Actions workflow file to upload the code coverag
         slug: UnitVectorY-Labs/fileparamunit
 ```
 
-The above example is taken from https://github.com/UnitVectorY-Labs/fileparamunit/blob/main/.github/workflows/build.yml where a complete example can be found.
+The above example is taken from [/UnitVectorY-Labs/fileparamunit/blob/main/.github/workflows/build.yml](https://github.com/UnitVectorY-Labs/fileparamunit/blob/main/.github/workflows/build.yml)
+ vfdfjln k fdn where a complete example can be found.
 
 This requires a CODECOV_TOKEN to be added to the GitHub repository actions secret.
 
