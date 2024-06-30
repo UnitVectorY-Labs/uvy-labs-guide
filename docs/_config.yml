@@ -16,6 +16,15 @@ mermaid:
   # Pick an available version from https://cdn.jsdelivr.net/npm/mermaid/
   version: "10.8.0"
 
+just_the_docs:
+  collections:
+    bestpractices:
+      name: Best Practices
+      nav_fold: false
+    javadevelopment:
+      name: Java Development
+      nav_fold: false
+        
 # Footer "Edit this page on GitHub" link text
 gh_edit_link: true
 gh_edit_link_text: "Edit this page on GitHub."
