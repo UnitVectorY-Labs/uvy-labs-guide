@@ -1,7 +1,6 @@
 ---
 layout: default
 title: Maven Central
-parent: Java Development
 ---
 
 # Maven Central

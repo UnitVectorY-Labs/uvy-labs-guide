@@ -1,7 +1,6 @@
 ---
 layout: default
 title: Lombok
-parent: Java Development
 ---
 
 # Lombok

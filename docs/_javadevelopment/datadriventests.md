@@ -1,7 +1,6 @@
 ---
 layout: default
 title: Data Driven Tests
-parent: Java Development
 ---
 
 # Data Driven Tests

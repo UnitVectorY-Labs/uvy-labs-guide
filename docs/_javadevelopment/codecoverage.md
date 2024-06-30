@@ -1,7 +1,6 @@
 ---
 layout: default
 title: Code Coverage
-parent: Java Development
 ---
 
 # Code Coverage
