@@ -54,4 +54,4 @@ This requires a CODECOV_TOKEN to be added to the GitHub repository actions secre
 
 ## Add the Code Coverage Badge
 
-Add the following [badge]({{ site.baseurl }}{% link bestpractices/badges.md %}) to the README.md file to display the code coverage.  Follow the instructions for [status badges](https://docs.codecov.com/docs/status-badges) from Codecov.
+Add the following [badge]({{ site.baseurl }}{% link _bestpractices/badges.md %}) to the README.md file to display the code coverage.  Follow the instructions for [status badges](https://docs.codecov.com/docs/status-badges) from Codecov.

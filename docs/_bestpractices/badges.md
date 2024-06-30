@@ -12,7 +12,7 @@ The following are badges that are used in UnitVectorY Labs projects:
 
 ## License
 
-The [licenses]({{ site.baseurl }}{% link bestpractices/licenses.md %}) of the specific project are included as a badge in the README.md file.
+The [licenses]({{ site.baseurl }}{% link _bestpractices/licenses.md %}) of the specific project are included as a badge in the README.md file.
 
 The following is the badge that is included in the README.md file of a project that uses the Apache License 2.0:
 
@@ -28,7 +28,7 @@ The following is the badge that is included in the README.md file of a project t
 
 ## Project Status
 
-The [project status]({{ site.baseurl }}{% link bestpractices/status.md %}) of the specific project are included as a badge in the README.md file.
+The [project status]({{ site.baseurl }}{% link _bestpractices/status.md %}) of the specific project are included as a badge in the README.md file.
 
 Separate badges are used for the project depending on its status:
 
