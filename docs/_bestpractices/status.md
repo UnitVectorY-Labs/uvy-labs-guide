@@ -1,7 +1,6 @@
 ---
 layout: default
 title: Project Status
-parent: Best Practices
 ---
 
 # Project Status

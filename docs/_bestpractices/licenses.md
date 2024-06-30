@@ -1,7 +1,6 @@
 ---
 layout: default
 title: Licenses
-parent: Best Practices
 ---
 
 # Licenses

@@ -1,7 +1,6 @@
 ---
 layout: default
 title: Badges
-parent: Best Practices
 ---
 
 # Badges

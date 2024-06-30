@@ -1,7 +1,6 @@
 ---
 layout: default
 title: Dependabot
-parent: Best Practices
 ---
 
 # Dependabot
