@@ -54,7 +54,7 @@ Separate badges are used for the project depending on its status:
 
 ## Code Coverage
 
-The [code coverage]({{ site.baseurl }}{% link javadevelopment/codecoverage.md %}) badge from Codecov is included in the README.md file to display the code coverage.
+The [code coverage]({{ site.baseurl }}{% link _javadevelopment/codecoverage.md %}) badge from Codecov is included in the README.md file to display the code coverage.
 
 ## Maven Central
 
