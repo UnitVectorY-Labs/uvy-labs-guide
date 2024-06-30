@@ -26,6 +26,32 @@ The following is the badge that is included in the README.md file of a project t
 [![License](https://img.shields.io/badge/License-EPL%202.0-blue.svg)](https://www.eclipse.org/legal/epl-v20.html)
 ```
 
+## Project Status
+
+The [project status]({{ site.baseurl }}{% link bestpractices/status.md %}) of the specific project are included as a badge in the README.md file.
+
+Separate badges are used for the project depending on its status:
+
+```
+[![Concept](https://img.shields.io/badge/Status-Concept-white)](https://unitvectory-labs.github.io/uvy-labs-guide/bestpractices/status.html#concept)
+```
+
+```
+[![Work In Progress](https://img.shields.io/badge/Status-Work%20In%20Progress-yellow)](https://unitvectory-labs.github.io/uvy-labs-guide/bestpractices/status.html#work-in-progress)
+```
+
+```
+[![Active](https://img.shields.io/badge/Status-Active-green)](https://unitvectory-labs.github.io/uvy-labs-guide/bestpractices/status.html#active)
+```
+
+```
+[![Suspended](https://img.shields.io/badge/Status-Suspended-orange)](https://unitvectory-labs.github.io/uvy-labs-guide/bestpractices/status.html#suspended)
+```
+
+```
+[![Abandoned](https://img.shields.io/badge/Status-Abandoned-red)](https://unitvectory-labs.github.io/uvy-labs-guide/bestpractices/status.html#abandoned)
+```
+
 ## Code Coverage
 
 The [code coverage]({{ site.baseurl }}{% link javadevelopment/codecoverage.md %}) badge from Codecov is included in the README.md file to display the code coverage.
