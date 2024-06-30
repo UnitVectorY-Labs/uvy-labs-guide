@@ -32,23 +32,23 @@ The [project status]({{ site.baseurl }}{% link bestpractices/status.md %}) of th
 
 Separate badges are used for the project depending on its status:
 
-```
+```markdown
 [![Concept](https://img.shields.io/badge/Status-Concept-white)](https://unitvectory-labs.github.io/uvy-labs-guide/bestpractices/status.html#concept)
 ```
 
-```
+```markdown
 [![Work In Progress](https://img.shields.io/badge/Status-Work%20In%20Progress-yellow)](https://unitvectory-labs.github.io/uvy-labs-guide/bestpractices/status.html#work-in-progress)
 ```
 
-```
+```markdown
 [![Active](https://img.shields.io/badge/Status-Active-green)](https://unitvectory-labs.github.io/uvy-labs-guide/bestpractices/status.html#active)
 ```
 
-```
+```markdown
 [![Suspended](https://img.shields.io/badge/Status-Suspended-orange)](https://unitvectory-labs.github.io/uvy-labs-guide/bestpractices/status.html#suspended)
 ```
 
-```
+```markdown
 [![Abandoned](https://img.shields.io/badge/Status-Abandoned-red)](https://unitvectory-labs.github.io/uvy-labs-guide/bestpractices/status.html#abandoned)
 ```
 
