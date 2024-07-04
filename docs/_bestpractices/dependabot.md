@@ -30,6 +30,7 @@ updates:
       day: "saturday"
       time: "07:00"
       timezone: "America/New_York"
+    open-pull-requests-limit: 20
   - package-ecosystem: "github-actions"
     directory: "/"
     schedule:
@@ -37,6 +38,7 @@ updates:
       day: "saturday"
       time: "07:00"
       timezone: "America/New_York"
+      open-pull-requests-limit: 20
   - package-ecosystem: "devcontainers"
     directory: "/"
     schedule:
@@ -44,6 +46,7 @@ updates:
       day: "saturday"
       time: "07:00"
       timezone: "America/New_York"
+    open-pull-requests-limit: 20
 ```
 
 This configuration file updates Maven dependencies, GitHub Actions, and Devcontainers weekly on Saturday at 7:00 AM Eastern Time.
@@ -65,4 +68,5 @@ updates:
       day: "saturday"
       time: "07:00"
       timezone: "America/New_York"
+    open-pull-requests-limit: 20
 ```
