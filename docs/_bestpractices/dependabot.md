@@ -38,7 +38,7 @@ updates:
       day: "saturday"
       time: "07:00"
       timezone: "America/New_York"
-      open-pull-requests-limit: 20
+    open-pull-requests-limit: 20
   - package-ecosystem: "devcontainers"
     directory: "/"
     schedule:
