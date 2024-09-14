@@ -70,3 +70,23 @@ updates:
       timezone: "America/New_York"
     open-pull-requests-limit: 20
 ```
+
+The following is the example for a Go project:
+
+```yaml
+# To get started with Dependabot version updates, you'll need to specify which
+# package ecosystems to update and where the package manifests are located.
+# Please see the documentation for all configuration options:
+# https://docs.github.com/code-security/dependabot/dependabot-version-updates/configuration-options-for-the-dependabot.yml-file
+
+version: 2
+updates:
+  - package-ecosystem: "gomod"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+      day: "saturday"
+      time: "07:00"
+      timezone: "America/New_York"
+    open-pull-requests-limit: 20
+```
