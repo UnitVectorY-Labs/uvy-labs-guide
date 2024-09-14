@@ -8,6 +8,7 @@ title: Licenses
 The following are licenses that are used in UnitVectorY Labs projects:
 
 - Apache License 2.0
+- MIT
 - Eclipse Public License 2.0
 
 ## Conventions
@@ -44,6 +45,19 @@ The following is the The [badge]({{ site.baseurl }}{% link _bestpractices/badges
 
 ```markdown
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+```
+
+## MIT License
+
+```go
+// Copyright (c) 2024 UnitVectorY Labs
+// Licensed under the MIT License. See LICENSE file in the project root for full license information.
+```
+
+The following is the The [badge]({{ site.baseurl }}{% link _bestpractices/badges.md %}) that is included in the README.md file of a project that uses the MIT License:
+
+```markdown
+[![License](https://img.shields.io/badge/license-MIT-blue)](https://opensource.org/licenses/MIT)
 ```
 
 ## Eclipse Public License 2.0
