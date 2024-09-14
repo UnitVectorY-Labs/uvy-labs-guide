@@ -9,7 +9,7 @@ color_scheme: dark
 
 #logo: "/assets/logo_transparent.png"
 
-baseurl: /uvy-labs-guide
+baseurl: /
 
 mermaid:
   # Version of mermaid library
