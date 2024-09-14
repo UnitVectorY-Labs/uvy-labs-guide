@@ -19,6 +19,12 @@ The following is the badge that is included in the README.md file of a project t
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 ```
 
+The following is the badge that is included in the README.md file of a project that uses the MIT License:
+
+```markdown
+[![License](https://img.shields.io/badge/license-MIT-blue)](https://opensource.org/licenses/MIT)
+```
+
 The following is the badge that is included in the README.md file of a project that uses the Eclipse Public License 2.0:
 
 ```markdown
