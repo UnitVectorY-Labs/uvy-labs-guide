@@ -38,23 +38,23 @@ The [project status]({{ site.baseurl }}{% link _bestpractices/status.md %}) of t
 Separate badges are used for the project depending on its status:
 
 ```markdown
-[![Concept](https://img.shields.io/badge/Status-Concept-white)](https://unitvectory-labs.github.io/uvy-labs-guide/bestpractices/status/#concept)
+[![Concept](https://img.shields.io/badge/Status-Concept-white)](https://guide.unitvectorylabs.com/bestpractices/status/#concept)
 ```
 
 ```markdown
-[![Work In Progress](https://img.shields.io/badge/Status-Work%20In%20Progress-yellow)](https://unitvectory-labs.github.io/uvy-labs-guide/bestpractices/status/#work-in-progress)
+[![Work In Progress](https://img.shields.io/badge/Status-Work%20In%20Progress-yellow)](https://guide.unitvectorylabs.com/bestpractices/status/#work-in-progress)
 ```
 
 ```markdown
-[![Active](https://img.shields.io/badge/Status-Active-green)](https://unitvectory-labs.github.io/uvy-labs-guide/bestpractices/status/#active)
+[![Active](https://img.shields.io/badge/Status-Active-green)](https://guide.unitvectorylabs.com/bestpractices/status/#active)
 ```
 
 ```markdown
-[![Suspended](https://img.shields.io/badge/Status-Suspended-orange)](https://unitvectory-labs.github.io/uvy-labs-guide/bestpractices/status/#suspended)
+[![Suspended](https://img.shields.io/badge/Status-Suspended-orange)](https://guide.unitvectorylabs.com/bestpractices/status/#suspended)
 ```
 
 ```markdown
-[![Abandoned](https://img.shields.io/badge/Status-Abandoned-red)](https://unitvectory-labs.github.io/uvy-labs-guide/bestpractices/status/#abandoned)
+[![Abandoned](https://img.shields.io/badge/Status-Abandoned-red)](https://guide.unitvectorylabs.com/bestpractices/status/#abandoned)
 ```
 
 ## Code Coverage
