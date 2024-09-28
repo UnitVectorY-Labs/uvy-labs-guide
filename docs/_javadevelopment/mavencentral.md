@@ -124,6 +124,9 @@ on:
     types: [published]
 jobs:
   publish:
+    permissions:
+      id-token: write
+      attestations: write
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -145,6 +148,9 @@ jobs:
           MAVEN_USERNAME: ${{ secrets.OSSRH_USERNAME }}
           MAVEN_PASSWORD: ${{ secrets.OSSRH_TOKEN }}
           MAVEN_GPG_PASSPHRASE: ${{ secrets.OSSRH_GPG_SECRET_KEY_PASSWORD }}
+      - uses: actions/attest-build-provenance@v1
+        with:
+          subject-path: "target/*.jar"
 ```
 
 This GitHub action is triggered when a release is published.  It sets up the Java environment, builds the library, and then deploys it to Maven Central.  The steps for doing this include bumping the version number in the POM file for the next release, creating a tag for that version, and then creating a release in GitHub.  This will trigger the GitHub action to deploy the library to Maven Central.
