@@ -15,9 +15,29 @@ To use Lombok in a Maven project, the following dependency needs to be added to 
 <dependency>
     <groupId>org.projectlombok</groupId>
     <artifactId>lombok</artifactId>
-    <version>1.18.32</version>
+    <version>1.18.34</version>
     <scope>provided</scope>
 </dependency>
+```
+
+Another important step that needs to be included is the build plugin must also be configured when using Java 9+ as described in the [Lombok Setup Guide](https://projectlombok.org/setup/maven)
+
+```xml
+<plugin>
+    <groupId>org.apache.maven.plugins</groupId>
+    <artifactId>maven-compiler-plugin</artifactId>
+    <version>3.13.0</version>
+    <configuration>
+        <release>17</release>
+        <annotationProcessorPaths>
+            <path>
+                <groupId>org.projectlombok</groupId>
+                <artifactId>lombok</artifactId>
+                <version>1.18.34</version>
+            </path>
+        </annotationProcessorPaths>
+    </configuration>
+</plugin>
 ```
 
 ## Code Coverage
