@@ -118,18 +118,21 @@ This requires setting up a GitHub Action that will build the library and then de
 A working example can be found at [https://github.com/UnitVectorY-Labs/fileparamunit/blob/main/.github/workflows/release.yml](https://github.com/UnitVectorY-Labs/fileparamunit/blob/main/.github/workflows/release.yml)
 
 ```
-name: release and push to central
+name: Publish Java version to Maven Central
 on:
   release:
     types: [published]
 jobs:
   publish:
     permissions:
+      contents: write
       id-token: write
       attestations: write
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - name: Checkout Code
+        uses: actions/checkout@v4
+
       - name: Set up Java for publishing to Maven Central Repository
         uses: actions/setup-java@v4
         with:
@@ -140,17 +143,48 @@ jobs:
           server-password: MAVEN_PASSWORD
           gpg-private-key: ${{ secrets.OSSRH_GPG_SECRET_KEY }}
           gpg-passphrase: MAVEN_GPG_PASSPHRASE
-      - name: build artifact
+
+      - name: Extract Maven Artifacts
+        id: maven_artifact
+        run: |
+          echo "version=$(mvn help:evaluate -Dexpression=project.version -q -DforceStdout)" >> $GITHUB_OUTPUT
+          echo "artifactId=$(mvn help:evaluate -Dexpression=project.artifactId -q -DforceStdout)" >> $GITHUB_OUTPUT
+
+      - name: Build Java Project
         run: mvn clean package -ntp
+
       - name: Publish to the Maven Central Repository
         run: mvn deploy -ntp
         env:
           MAVEN_USERNAME: ${{ secrets.OSSRH_USERNAME }}
           MAVEN_PASSWORD: ${{ secrets.OSSRH_TOKEN }}
           MAVEN_GPG_PASSPHRASE: ${{ secrets.OSSRH_GPG_SECRET_KEY_PASSWORD }}
-      - uses: actions/attest-build-provenance@v1
+
+      - name: Publish Java Artifacts to GitHub Release
+        run: |
+          cp pom.xml ${{ steps.maven_artifact.outputs.artifactId }}-${{ steps.maven_artifact.outputs.version }}.pom
+          gh release upload ${{github.event.release.tag_name}} "${{ steps.maven_artifact.outputs.artifactId }}-${{ steps.maven_artifact.outputs.version }}.pom"
+          for jar in target/*.jar; do
+            [ -e "$jar" ] || continue
+            gh release upload ${{github.event.release.tag_name}} "$jar"
+          done
+        env:
+          GITHUB_TOKEN: ${{ github.TOKEN }}
+
+      - name: GitHub Attestation for JAR files
+        uses: actions/attest-build-provenance@v1
         with:
           subject-path: "target/*.jar"
+
+      - name: GitHub Attestation for POM file
+        uses: actions/attest-build-provenance@v1
+        with:
+          subject-path: "pom.xml"
+          subject-name: "${{ steps.maven_artifact.outputs.artifactId }}-${{ steps.maven_artifact.outputs.version }}.pom"
 ```
 
-This GitHub action is triggered when a release is published.  It sets up the Java environment, builds the library, and then deploys it to Maven Central.  The steps for doing this include bumping the version number in the POM file for the next release, creating a tag for that version, and then creating a release in GitHub.  This will trigger the GitHub action to deploy the library to Maven Central.
+This GitHub action is triggered when a release is published.  It sets up the Java environment, builds the library, and then deploys it to Maven Central with the appropriate signatures.
+
+Additionally the JAR and POM artifacts are uploaded to the GitHub Release for reference.
+
+The JAR and POM file aalso use a GitHub Attestation to provide proof of their provenance.  This is not yet uploaded to Maven Central and is only available through GitHub to verify the artifact.
