@@ -42,6 +42,7 @@ The `project-type` property is used to specify the type of project is used.
 - `java-maven-library` is used for a Java Maven Library
 - `java-docker` is used for a Java application distributed inside a Docker image
 - `go-utility` is a command line application written in Go
+- `go-docker` is used for a Go application distributed inside a Docker image
 - `opentofu-module` is a OpenTofu module that is meant to be used by other projects
 - `opentofu-deployment` is a complete OpenTofu project meant to deploy to an envirionment
 
