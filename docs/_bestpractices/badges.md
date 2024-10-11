@@ -30,6 +30,13 @@ The following is the badge that is included in the README.md file of a project t
 ```markdown
 [![License](https://img.shields.io/badge/License-EPL%202.0-blue.svg)](https://www.eclipse.org/legal/epl-v20.html)
 ```
+## GitHub Release Version
+
+For projects that have GitHub Releases the most recent version number is included as a badge linking to the latest release.  The following URL requires the repository name to replace the `CHANGEME` segment in the URLs.
+
+```markdown
+[![GitHub release](https://img.shields.io/github/release/UnitVectorY-Labs/CHANGEME.svg)](https://github.com/UnitVectorY-Labs/CHANGEME/releases/latest)
+```
 
 ## Project Status
 
