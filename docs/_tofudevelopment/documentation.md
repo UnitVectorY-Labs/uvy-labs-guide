@@ -16,6 +16,8 @@ on:
 jobs:
   docs:
     runs-on: ubuntu-latest
+    timeout-minutes: 30
+
     steps:
     - uses: actions/checkout@v4
       with:
