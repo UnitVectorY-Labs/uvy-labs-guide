@@ -93,7 +93,7 @@ updates:
 
 The following is an example for a repository using Terraform:
 
-```
+```yaml
 # To get started with Dependabot version updates, you'll need to specify which
 # package ecosystems to update and where the package manifests are located.
 # Please see the documentation for all configuration options:
