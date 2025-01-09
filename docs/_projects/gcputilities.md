@@ -5,28 +5,67 @@ title: GCP Utilities
 
 # GCP Utilities
 
-- [simplegoogleidtoken](https://github.com/UnitVectorY-Labs/simplegoogleidtoken)
-- [kubetogoogleidtoken](https://github.com/UnitVectorY-Labs/kubetogoogleidtoken)
-- [firestoreproto2json](https://github.com/UnitVectorY-Labs/firestoreproto2json)
-- [firestoreproto2map](https://github.com/UnitVectorY-Labs/firestoreproto2map)
-- [lockboxkms](https://github.com/UnitVectorY-Labs/lockboxkms)
-- [lockboxkms-secretmanager-tofu](https://github.com/UnitVectorY-Labs/lockboxkms-secretmanager-tofu)
-- [gcpmetadataexplorer](https://github.com/UnitVectorY-Labs/gcpmetadataexplorer)
-- [iapheaders](https://github.com/UnitVectorY-Labs/iapheaders)
-- [gcpidentitytokenportal](https://github.com/UnitVectorY-Labs/gcpidentitytokenportal)
-- [pubsubmsgrestforwarder](https://github.com/UnitVectorY-Labs/pubsubmsgrestforwarder)
-- [crossfiresync](https://github.com/UnitVectorY-Labs/crossfiresync)
-- [crossfiresyncrun](https://github.com/UnitVectorY-Labs/crossfiresyncrun)
-- [crossfiresync-firestore](https://github.com/UnitVectorY-Labs/crossfiresync-firestore)
-- [crossfiresync-pubsub](https://github.com/UnitVectorY-Labs/crossfiresync-pubsub)
-- [crossfiresyncrun-tofu](https://github.com/UnitVectorY-Labs/crossfiresyncrun-tofu)
-- [bqpubauditsink](https://github.com/UnitVectorY-Labs/bqpubauditsink)
-- [bqpubauditsink-tofu](https://github.com/UnitVectorY-Labs/bqpubauditsink-tofu)
-- [firepubauditsource](https://github.com/UnitVectorY-Labs/firepubauditsource)
-- [firepubauditsource-tofu](https://github.com/UnitVectorY-Labs/firepubauditsource-tofu)
-- [valkeypubauditsink](https://github.com/UnitVectorY-Labs/valkeypubauditsink)
-- [gcp-envoy-to-cloud-run-jwt-bearer-auth-tofu](https://github.com/UnitVectorY-Labs/gcp-envoy-to-cloud-run-jwt-bearer-auth-tofu)
-- [gcp-envoy-to-cloud-run-metadata-auth-tofu](https://github.com/UnitVectorY-Labs/gcp-envoy-to-cloud-run-metadata-auth-tofu)
-- [gcp-cloud-run-psc-lb-tofu](https://github.com/UnitVectorY-Labs/gcp-cloud-run-psc-lb-tofu)
-- [gcp-cloud-run-lb-nipio-tofu](https://github.com/UnitVectorY-Labs/gcp-cloud-run-lb-nipio-tofu)
-- [gcp-cloud-run-iap-authui-tofu](https://github.com/UnitVectorY-Labs/gcp-cloud-run-iap-authui-tofu)
+The following are applications and ulities that are used in conjunction with Google Cloud Platform (GCP).
+
+## Applications
+
+### Web Applications
+
+[gcpmetadataexplorer](https://github.com/UnitVectorY-Labs/gcpmetadataexplorer): A web-based interface for browsing and inspecting the GCP metadata server.
+
+[iapheaders](https://github.com/UnitVectorY-Labs/iapheaders): Displays GCP Identity-Aware Proxy headers and JWT for inspection.
+
+[gcpidentitytokenportal](https://github.com/UnitVectorY-Labs/gcpidentitytokenportal): Web portal for vending GCP identity tokens via metadata service with flexible audience selection.
+
+### Java Utilities
+
+[firestoreproto2map](https://github.com/UnitVectorY-Labs/firestoreproto2map): Java helper library to convert Firestore Protocol Buffer from event to map that can be used by Firestore
+
+[firestoreproto2json](https://github.com/UnitVectorY-Labs/firestoreproto2json): Java helper library to convert Firestore Protocol Buffer to JSON Object
+
+[simplegoogleidtoken](https://github.com/UnitVectorY-Labs/simplegoogleidtoken): simplegoogleidtoken is a lightweight Java library for effortlessly exchanging Google Cloud Service Account credentials for Google ID tokens
+
+[kubetogoogleidtoken](https://github.com/UnitVectorY-Labs/kubetogoogleidtoken): A Java library for obtaining Google ID tokens by leveraging Kubernetes Service Accounts with GCP Workload Identity Federation.
+
+### Command Line Utilities
+
+[pubsubmsgrestforwarder](https://github.com/UnitVectorY-Labs/pubsubmsgrestforwarder): A Go command-line application for local testing, simulating the Cloud Run Push use case by consuming Pub/Sub messages and forwarding them as RESTful HTTP POST requests.
+
+### Firestore - crossfiresync
+
+[crossfiresync](https://github.com/UnitVectorY-Labs/crossfiresync): A Java library enabling real-time synchronization between GCP Firestore instances across regions using Pub/Sub.
+
+[crossfiresyncrun](https://github.com/UnitVectorY-Labs/crossfiresyncrun): Provides real-time synchronization between GCP Firestore instances across regions using Pub/Sub, packaged as a Docker image for deployment on Cloud Run.
+
+[crossfiresyncrun-tofu](https://github.com/UnitVectorY-Labs/crossfiresyncrun-tofu): A module for OpenTofu that deploys crossfiresyncrun to GCP Cloud Run, along with configuring essential services including Firestore and Pub/Sub.
+
+[crossfiresync-firestore](https://github.com/UnitVectorY-Labs/crossfiresync-firestore): Reference implementation of a crossfiresync Firestore publisher, featuring Java code and deployment scripts for Cloud Functions.
+
+[crossfiresync-pubsub](https://github.com/UnitVectorY-Labs/crossfiresync-pubsub): Reference implementation of a crossfiresync Pub/Sub consumer, featuring Java code and deployment scripts for Cloud Functions.
+
+
+### KMS - lockboxkms
+
+[lockboxkms](https://github.com/UnitVectorY-Labs/lockboxkms): A simple web interface for encrypting text using Google Cloud KMS.
+
+[lockboxkms-secretmanager-tofu](https://github.com/UnitVectorY-Labs/lockboxkms-secretmanager-tofu): OpenTofu module for decrypting value using KMS and creating a secret with that value in GCP
+
+### Terraform/OpenTofu Modules
+
+[gcp-cloud-run-psc-lb-tofu](https://github.com/UnitVectorY-Labs/gcp-cloud-run-psc-lb-tofu): Demonstrates how to expose a private Cloud Run service using Private Service Connect and an internal HTTPS load balancer.
+
+[gcp-cloud-run-lb-nipio-tofu](https://github.com/UnitVectorY-Labs/gcp-cloud-run-lb-nipio-tofu): Deploys a global load-balanced Cloud Run service using nip.io for automatic SSL certificates.
+
+[gcp-cloud-run-iap-authui-tofu](https://github.com/UnitVectorY-Labs/gcp-cloud-run-iap-authui-tofu): Deploys GCP's IaP authui-container to Cloud Run as an internet facing endpoint.
+
+### Data Replication
+
+[firepubauditsource](https://github.com/UnitVectorY-Labs/firepubauditsource): Publishes Firestore data changes to Pub/Sub as JSON audit records for downstream processing.
+
+[firepubauditsource-tofu](https://github.com/UnitVectorY-Labs/firepubauditsource-tofu): A module for OpenTofu that deploys firepubauditsource to GCP Cloud Run, along with configuring essential services including Eventarc for Firestore and Pub/Sub.
+
+[bqpubauditsink](https://github.com/UnitVectorY-Labs/bqpubauditsink): Ingests Pub/Sub audit JSON events and inserts the records into BigQuery.
+
+[bqpubauditsink-tofu](https://github.com/UnitVectorY-Labs/bqpubauditsink-tofu): A module for OpenTofu that deploys bqpubauditsink to GCP Cloud Run, along with configuring essential services including the Pub/Sub subscription and BigQuery dataset and table.
+
+[valkeypubauditsink](https://github.com/UnitVectorY-Labs/valkeypubauditsink): Ingests Pub/Sub audit JSON events and synchronizes the records into Valkey (Redis).
