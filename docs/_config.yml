@@ -27,6 +27,9 @@ collections:
   tofudevelopment:
     output: true
     permalink: /:collection/:path/
+  projects:
+    output: true
+    permalink: /:collection/:path/
 just_the_docs:
   collections:
     bestpractices:
@@ -37,6 +40,9 @@ just_the_docs:
       nav_fold: false
     tofudevelopment:
       name: Tofu Development
+      nav_fold: false
+    projects:
+      name: Projects
       nav_fold: false
 
 # Footer "Edit this page on GitHub" link text
