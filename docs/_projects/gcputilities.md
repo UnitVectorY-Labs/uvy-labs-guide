@@ -9,6 +9,10 @@ The following are applications and ulities that are used in conjunction with Goo
 
 ## Applications
 
+### Documentation
+
+[gcp-iam-catalog](https://github.com/UnitVectorY-Labs/gcp-iam-catalog): A comprehensive catalog of GCP IAM roles and permissions, designed to easily identify which roles include a specific permission.
+
 ### Web Applications
 
 [gcpmetadataexplorer](https://github.com/UnitVectorY-Labs/gcpmetadataexplorer): A web-based interface for browsing and inspecting the GCP metadata server.
