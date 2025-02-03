@@ -47,6 +47,9 @@ The following are applications and ulities that are used in conjunction with Goo
 
 [crossfiresync-pubsub](https://github.com/UnitVectorY-Labs/crossfiresync-pubsub): Reference implementation of a crossfiresync Pub/Sub consumer, featuring Java code and deployment scripts for Cloud Functions.
 
+### Pub/Sub
+
+[http-response-collector](https://github.com/UnitVectorY-Labs/http-response-collector) - Retrieves HTTP responses and headers from specified endpoints and publishes the collected data to Google Cloud Pub/Sub for further processing.
 
 ### KMS - lockboxkms
 
