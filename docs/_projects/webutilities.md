@@ -13,6 +13,8 @@ The following are simple utilities that are helpful with web development.
 
 [jwks-catalog-crawler](https://github.com/UnitVectorY-Labs/jwks-catalog-crawler): Extracts URLs from jwks-catalog and publishes crawl requests to http-response-collector for HTTP response and header collection.
 
+[jwks-catalog-crawler-tofu](https://github.com/UnitVectorY-Labs/jwks-catalog-crawler-tofu): OpenTofu module for deploying jwks-catalog-crawler to GCP
+
 ## Applications
 
 [gologhttpbinary](https://github.com/UnitVectorY-Labs/gologhttpbinary): A lightweight HTTP server that logs HTTP requests, including the body encoded in base64, enabling logging of binary payloads.
