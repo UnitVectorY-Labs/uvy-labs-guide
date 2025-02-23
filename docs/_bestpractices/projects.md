@@ -36,3 +36,9 @@ jobs:
           project-url: https://github.com/orgs/UnitVectorY-Labs/projects/41
           github-token: ${{ secrets.PROJECT_GITHUB_ACTION }}
 ```
+
+This uses an organization secret to provide access to update the issues and pull requests to automatically be added to the project.  The required permissions are defined as:
+
+- For Fine-grained tokens, you must first select the appropriate owner and associated repositories. Then select Organization permissions -> projects read & write, and Repository permissions -> issues read-only and pull requests read-only.
+
+One important note is that because Dependabot and other external pull requests may be made to the repository, `pull_request_target` is used for the GitHub action instead of `pull_request` so this Action can run with the appropriate permissions.
