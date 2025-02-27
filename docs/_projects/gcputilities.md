@@ -65,6 +65,8 @@ The following are applications and ulities that are used in conjunction with Goo
 
 [gcp-cloud-run-iap-authui-tofu](https://github.com/UnitVectorY-Labs/gcp-cloud-run-iap-authui-tofu): Deploys GCP's IaP authui-container to Cloud Run as an internet facing endpoint.
 
+[firestore-to-bigquery-tofu](https://github.com/UnitVectorY-Labs/firestore-to-bigquery-tofu): This module automates the scheduled export of Firestore data by triggering Cloud Run jobs that export to Cloud Storage and load the data into BigQuery.
+
 ### Data Replication
 
 [firepubauditsource](https://github.com/UnitVectorY-Labs/firepubauditsource): Publishes Firestore data changes to Pub/Sub as JSON audit records for downstream processing.
