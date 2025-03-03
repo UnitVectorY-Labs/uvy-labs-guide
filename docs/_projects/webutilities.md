@@ -15,6 +15,10 @@ The following are simple utilities that are helpful with web development.
 
 [jwks-catalog-crawler-tofu](https://github.com/UnitVectorY-Labs/jwks-catalog-crawler-tofu): OpenTofu module for deploying jwks-catalog-crawler to GCP
 
+## Tools
+
+[certsummary](https://github.com/UnitVectorY-Labs/certsummary): A tool for securely decoding and inspecting SSL/TLS certificates directly in your web browser.
+
 ## Applications
 
 [gologhttpbinary](https://github.com/UnitVectorY-Labs/gologhttpbinary): A lightweight HTTP server that logs HTTP requests, including the body encoded in base64, enabling logging of binary payloads.
