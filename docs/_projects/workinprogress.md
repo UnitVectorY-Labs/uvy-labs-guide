@@ -9,8 +9,6 @@ The following applications are not yet ready for use and are [![Work In Progress
 
 ## Application 
 
-[YAMLtecture](https://github.com/UnitVectorY-Labs/YAMLtecture): Lightweight CLI tool for generating outputs, including Mermaid diagrams, from YAML-defined system architectures.
-
 [cron-conductor-core](https://github.com/UnitVectorY-Labs/cron-conductor-core): Core Java library for cron-conductor providing the interfaces and main logic.
 
 [serviceauditreport](https://github.com/UnitVectorY-Labs/serviceauditreport): A tool for auditing and reporting on the configuration compliance of various services
