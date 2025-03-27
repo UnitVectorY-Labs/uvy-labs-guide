@@ -1,7 +1,6 @@
 ---
 layout: default
 title: Custom Properties
-parent: Best Practices
 ---
 
 # Custom Properties
