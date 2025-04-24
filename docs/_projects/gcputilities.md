@@ -15,8 +15,6 @@ The following are applications and ulities that are used in conjunction with Goo
 
 ### Containers
 
-[adk-docker-base](https://github.com/UnitVectorY-Labs/adk-docker-base): Docker image based on python:3 with Google Agent Development Kit (ADK) pre-installed for streamlined AI agent prototyping.
-
 [firestore-batch-incrementer](https://github.com/UnitVectorY-Labs/firestore-batch-incrementer): Iterates through a Firestore collection in batches and atomically increments a specified root‑level numeric field with configurable rate limiting.
 
 ### Web Applications
