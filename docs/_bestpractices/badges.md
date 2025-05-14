@@ -83,3 +83,10 @@ For those projects that are on Maven Central, a badge is included in the README.
 ```markdown
 [![javadoc](https://javadoc.io/badge2/com.unitvectory/fileparamunit/javadoc.svg)](https://javadoc.io/doc/com.unitvectory/fileparamunit)
 ```
+## Go Report Card
+
+For Go projects, a badge is included in the README.md file to link to the [https://goreportcard.com/](https://goreportcard.com/) to show the report code representing the code quality.
+
+```markdown
+[![Go Report Card](https://goreportcard.com/badge/github.com/UnitVectorY-Labs/clip4llm)](https://goreportcard.com/report/github.com/UnitVectorY-Labs/clip4llm)
+```
