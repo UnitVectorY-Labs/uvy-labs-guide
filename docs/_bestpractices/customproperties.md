@@ -31,6 +31,7 @@ The `programming-language` property is used to specify which programming languag
 - `unknown` is used as the default option as this property is mandatory
 - `java-17` is used for Java 17 projects
 - `go` is use for Go projects
+- `OpenTofu` is used for Tofu modules
 
 ## Project Type
 
@@ -53,4 +54,4 @@ The `distribution` is used to specify how the project is distributed.
 - `maven-central` is used for Java applications published to Maven Central
 - `github-repository` is used when the distribution is intended to be throught he GitHub repository itself
 - `github-packages` is used when the artifact is published to GitHub Packages
-
+- `github-releases` is used when the artifact is published to a GitHub release
