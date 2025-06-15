@@ -18,3 +18,5 @@ The following applications primarily focus on Artificial Intelligence.
 [mcp-graphql-forge](https://github.com/UnitVectorY-Labs/mcp-graphql-forge): A lightweight, configuration-driven MCP server that exposes curated GraphQL queries as modular tools, enabling intentional API interactions from your agents.
 
 [mcp-acronym-lookup](https://github.com/UnitVectorY-Labs/mcp-acronym-lookup): A lightweight, configuration-driven MCP server that ingests a CSV of acronyms and initialisms to expose a lookup tool for their full meanings and descriptions.
+
+[mcp-tf-provider-docs](https://github.com/UnitVectorY-Labs/mcp-tf-provider-docs): A configurable MCP server that indexes and serves Terraform/Tofu provider documentation from a local Git repo to power accurate, context-aware code generation.
