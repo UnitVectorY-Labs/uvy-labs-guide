@@ -17,7 +17,7 @@ The following are simple utilities that are helpful with web development.
 
 [jwks-catalog-crawler-tofu](https://github.com/UnitVectorY-Labs/jwks-catalog-crawler-tofu): OpenTofu module for deploying jwks-catalog-crawler to GCP
 
-[caa-observatory](https://github.com/UnitVectorY-Labs/caa-observatory): Tracks CAA DNS configurations across top websites to surface insights on certificate issuance policies.
+[dns-caa-catalog](https://github.com/UnitVectorY-Labs/dns-caa-catalog): Tracks CAA DNS configurations across top websites to surface insights on certificate issuance policies.
 
 ## Tools
 
