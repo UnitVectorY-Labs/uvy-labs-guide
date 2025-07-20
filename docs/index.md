@@ -7,8 +7,14 @@ permalink: /
 
 # UnitVectorY Labs
 
-This is the guide for [UnitVectorY Labs](https://github.com/UnitVectorY-Labs) which provides helpful guides for development best practices utilized demonstrated by the Open Source projects maintained by UnitVectorY Labs.
+This is the guide for [UnitVectorY Labs](https://github.com/UnitVectorY-Labs) which provides helpful guides for development best practices utilized demonstrated by the Open Source projects maintained by [Jared Hatfield](https://github.com/JaredHatfield) under UnitVectorY Labs.
 
-The various practices, recommendations, and tutorials here are put forth as an opinionated set of best practices.  However, there are multiple valid approaches to different problems in software development so alternatives exist that are generally not addressed in these guides.
+## 🛠️ Online Tools
 
-The focus is mainly Java applications but many of the best practices are not language specific.
+Some of the projects are available as web pages hosted under `unitvectorylabs.com`:
+
+- [JWKS Catalog](https://jwks-catalog.unitvectorylabs.com/)
+- [GCP IAM Catalog](https://gcp-iam-catalog.unitvectorylabs.com/)
+- [GCP Service Catalog](https://gcp-service-catalog.unitvectorylabs.com/)
+- [DNS CAA Catalog](https://dns-caa-catalog.unitvectorylabs.com/)
+- [CertSummary](https://certsummary.unitvectorylabs.com/)
