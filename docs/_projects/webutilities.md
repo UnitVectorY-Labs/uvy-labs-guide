@@ -23,6 +23,8 @@ The following are simple utilities that are helpful with web development.
 
 [certsummary](https://github.com/UnitVectorY-Labs/certsummary): A tool for securely decoding and inspecting SSL/TLS certificates directly in your web browser.
 
+[oidcfinder](https://github.com/UnitVectorY-Labs/oidcfinder): Automates the discovery of OpenID Connect configuration URLs across list of domains.
+
 ## Applications
 
 [gologhttpbinary](https://github.com/UnitVectorY-Labs/gologhttpbinary): A lightweight HTTP server that logs HTTP requests, including the body encoded in base64, enabling logging of binary payloads.
