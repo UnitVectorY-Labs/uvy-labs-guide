@@ -20,3 +20,5 @@ The following applications primarily focus on Artificial Intelligence.
 [mcp-acronym-lookup](https://github.com/UnitVectorY-Labs/mcp-acronym-lookup): A lightweight, configuration-driven MCP server that ingests a CSV of acronyms and initialisms to expose a lookup tool for their full meanings and descriptions.
 
 [mcp-tf-provider-docs](https://github.com/UnitVectorY-Labs/mcp-tf-provider-docs): A configurable MCP server that indexes and serves Terraform/Tofu provider documentation from a local Git repo to power accurate, context-aware code generation.
+
+[mcp-markdown-rag](https://github.com/UnitVectorY-Labs/mcp-markdown-rag): A local-first command-line tool for indexing and semantically searching Markdown documents using vector embeddings and a self-contained vector database.
