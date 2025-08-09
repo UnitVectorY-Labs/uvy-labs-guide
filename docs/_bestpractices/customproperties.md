@@ -32,6 +32,7 @@ The `programming-language` property is used to specify which programming languag
 - `java-17` is used for Java 17 projects
 - `go` is use for Go projects
 - `OpenTofu` is used for Tofu modules
+- `Python` is used for Python projects
 
 ## Project Type
 
