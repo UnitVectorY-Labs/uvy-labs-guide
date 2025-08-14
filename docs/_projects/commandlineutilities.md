@@ -16,3 +16,5 @@ The following are command line applications that provide functionality to enhanc
 [YAMLtecture](https://github.com/UnitVectorY-Labs/YAMLtecture): Lightweight CLI tool for generating outputs, including Mermaid diagrams, from YAML-defined system architectures.
 
 [tofu-template-tester](https://github.com/UnitVectorY-Labs/tofu-template-tester): A lightweight Go CLI that renders Terraform-compatible templates by replacing ${NAME} placeholders with user-supplied values.
+
+[ghrelgrab](https://github.com/UnitVectorY-Labs/ghrelgrab): Fetches and extracts a specified version of a GitHub release asset from a chosen repository for the current or mapped system architecture.
