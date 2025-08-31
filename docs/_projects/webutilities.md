@@ -29,6 +29,8 @@ The following are simple utilities that are helpful with web development.
 
 [gologhttpbinary](https://github.com/UnitVectorY-Labs/gologhttpbinary): A lightweight HTTP server that logs HTTP requests, including the body encoded in base64, enabling logging of binary payloads.
 
+[gologhttpjson](https://github.com/UnitVectorY-Labs/gologhttpjson): A lightweight HTTP server for logging requests, with body capture, opt-in headers, and environment variable metadata.
+
 [goenvecho](https://github.com/UnitVectorY-Labs/goenvecho): Simple app that responds to GET requests with a JSON payload listing all environment variables.
 
 [hellorest](https://github.com/UnitVectorY-Labs/hellorest): A minimal Go API returning {"hello": "world"} on a GET / request deployed using a container
