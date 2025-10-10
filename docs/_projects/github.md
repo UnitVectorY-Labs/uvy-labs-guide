@@ -16,3 +16,5 @@ The following are applications and utilities that are used in conjunction with G
 ### Command Line Utilities
 
 [dotgithubindexer](https://github.com/UnitVectorY-Labs/dotgithubindexer): A tool for indexing the different GitHub Actions workflows files across repositories within an organization.
+
+[unreleasedcommits](https://github.com/UnitVectorY-Labs/unreleasedcommits): Generates reports that identify commits on the default branch which haven’t yet been included in the latest GitHub release.
