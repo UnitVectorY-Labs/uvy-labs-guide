@@ -15,7 +15,7 @@ The following are Java libraries that are available on Maven Central.
 |:------------|:--------|:------------|
 | [JSONassertify](https://github.com/UnitVectorY-Labs/JSONassertify) | [![GitHub release](https://img.shields.io/github/release/UnitVectorY-Labs/JSONassertify.svg)](https://github.com/UnitVectorY-Labs/JSONassertify/releases/latest) | Write JSON unit tests in less code. Great for testing REST interfaces. |
 | [jsonparamunit](https://github.com/UnitVectorY-Labs/jsonparamunit) | [![GitHub release](https://img.shields.io/github/release/UnitVectorY-Labs/jsonparamunit.svg)](https://github.com/UnitVectorY-Labs/jsonparamunit/releases/latest) | Library for creating parameterized JUnit 5 tests based on JSON files. |
-| [fileparamunit](https://github.com/UnitVectorY-Labs/fileparamunit) | [![GitHub release](https://img.shields.io/github/release/UnitVectorY-Labs/fileparamunit.svg)](https://github.com/UnitVectorY-Labs/fileparamunit/releases/latest) | Library for creating parameterized JUnit 5 tests based on files that exist in |
+| [fileparamunit](https://github.com/UnitVectorY-Labs/fileparamunit) | [![GitHub release](https://img.shields.io/github/release/UnitVectorY-Labs/fileparamunit.svg)](https://github.com/UnitVectorY-Labs/fileparamunit/releases/latest) | Library for creating parameterized JUnit 5 tests based on files that exist in resources. |
 
 ### Spring Boot
 
