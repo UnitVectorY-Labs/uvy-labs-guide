@@ -45,8 +45,10 @@ The `project-type` property is used to specify the type of project is used.
 - `java-docker` is used for a Java application distributed inside a Docker image
 - `go-utility` is a command line application written in Go
 - `go-docker` is used for a Go application distributed inside a Docker image
+- `go-module` is used for a Go module used by other applications
 - `opentofu-module` is a OpenTofu module that is meant to be used by other projects
 - `opentofu-deployment` is a complete OpenTofu project meant to deploy to an envirionment
+- `web` is for repos whose primary purpose is hosting a website
 
 # Distribution
 
