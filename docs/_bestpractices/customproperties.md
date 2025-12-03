@@ -33,6 +33,7 @@ The `programming-language` property is used to specify which programming languag
 - `go` is use for Go projects
 - `OpenTofu` is used for Tofu modules
 - `Python` is used for Python projects
+- `HTML` is used for pure static web content
 
 ## Project Type
 
