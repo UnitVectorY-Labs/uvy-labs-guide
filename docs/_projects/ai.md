@@ -7,6 +7,10 @@ title: AI
 
 The following applications primarily focus on Artificial Intelligence.
 
+## Utilities
+
+[prompt2json](https://github.com/UnitVectorY-Labs/prompt2json): Unix-style CLI that sends a system instruction, required JSON Schema, and text or file inputs to Vertex AI (Gemini models) and returns schema-validated JSON for easy batch processing.
+
 ## Containers
 
 [adk-docker-base](https://github.com/UnitVectorY-Labs/adk-docker-base): Docker image based on python docker image with Google Agent Development Kit (ADK) pre-installed for streamlined AI agent development.
