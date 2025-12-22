@@ -25,6 +25,10 @@ The following are applications and ulities that are used in conjunction with Goo
 
 [gcpidentitytokenportal](https://github.com/UnitVectorY-Labs/gcpidentitytokenportal): Web portal for vending GCP identity tokens via metadata service with flexible audience selection.
 
+### Go Libraries
+
+[gcpvalidate](https://github.com/UnitVectorY-Labs/gcpvalidate): Client-side validation of Google Cloud resource identifiers and attributes for Go applications, based on documented conventions (not affiliated with Google).
+
 ### Java Utilities
 
 [firestoreproto2map](https://github.com/UnitVectorY-Labs/firestoreproto2map): Java helper library to convert Firestore Protocol Buffer from event to map that can be used by Firestore
