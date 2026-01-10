@@ -11,6 +11,8 @@ The following applications primarily focus on Artificial Intelligence.
 
 [prompt2json](https://github.com/UnitVectorY-Labs/prompt2json): Unix-style CLI that sends a system instruction, required JSON Schema, and text or file inputs to Vertex AI (Gemini models) and returns schema-validated JSON for easy batch processing.
 
+[json2mdplan](https://github.com/UnitVectorY-Labs/json2mdplan): Unix-style CLI that extracts structure-only JSON, uses Vertex AI (Gemini) structured outputs to generate a schema-validated Markdown plan, then renders Markdown locally from the original JSON without sending raw values to the model.
+
 ## Containers
 
 [adk-docker-base](https://github.com/UnitVectorY-Labs/adk-docker-base): Docker image based on python docker image with Google Agent Development Kit (ADK) pre-installed for streamlined AI agent development.
