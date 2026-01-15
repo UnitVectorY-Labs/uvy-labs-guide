@@ -20,3 +20,5 @@ The following are applications and utilities that are used in conjunction with G
 [dotgithubindexer](https://github.com/UnitVectorY-Labs/dotgithubindexer): A tool for indexing the different GitHub Actions workflows files across repositories within an organization.
 
 [unreleasedcommits](https://github.com/UnitVectorY-Labs/unreleasedcommits): Generates reports that identify commits on the default branch which haven’t yet been included in the latest GitHub release.
+
+[bulkfilepr](https://github.com/UnitVectorY-Labs/bulkfilepr): Batch-update one or more standardized files across many local GitHub repositories, then commit the changes on a new branch and open pull requests back to each repository’s default branch.
