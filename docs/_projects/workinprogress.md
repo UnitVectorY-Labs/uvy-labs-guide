@@ -16,3 +16,5 @@ The following applications are not yet ready for use and are [![Work In Progress
 [devicekeyregistry](https://github.com/UnitVectorY-Labs/devicekeyregistry): DeviceKeyRegistry is an API for securely registering, approving, disabling, and validating device public keys using JWTs and JWKS URLs.
 
 [LockServiceCentral](https://github.com/UnitVectorY-Labs/LockServiceCentral): API that provides a simple interface for distributed locking with lease-based locks, supporting multiple backend systems.
+
+[worktreefoundry](https://github.com/UnitVectorY-Labs/worktreefoundry): A schema-driven tool for managing configuration data stored in a Git repo, with guardrails that make changes easy to review, validate, and safely publish.
