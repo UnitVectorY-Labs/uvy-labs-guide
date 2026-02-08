@@ -10,3 +10,7 @@ The following are applications and ulities that are used in conjunction with Kub
 ## Applications
 
 [kube-oidc-gateway](https://github.com/UnitVectorY-Labs/kube-oidc-gateway): A reverse proxy that exposes Kubernetes OIDC discovery and JWKS endpoints with lightweight in-memory caching so external systems can configure workload identity federation without requiring anonymous authentication on the Kubernetes API server.
+
+[kuberollouttrigger](https://github.com/UnitVectorY-Labs/kuberollouttrigger): A lightweight GitHub Actions OIDC authenticated webhook and in-cluster worker that automatically restarts matching Kubernetes Deployments when a container image tag is updated.
+
+[kuberollouttrigger-action](https://github.com/UnitVectorY-Labs/kuberollouttrigger-action): GitHub Action for triggering kuberollouttrigger
