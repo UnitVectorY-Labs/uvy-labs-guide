@@ -21,6 +21,8 @@ The following are simple utilities that are helpful with web development.
 
 ## Tools
 
+[cert-observatory](https://github.com/UnitVectorY-Labs/cert-observatory): Fetches the TLS certificate chain presented by a domain and renders each certificate in an easy-to-inspect format with decoded details and raw PEM.
+
 [certsummary](https://github.com/UnitVectorY-Labs/certsummary): A tool for securely decoding and inspecting SSL/TLS certificates directly in your web browser.
 
 [oidcfinder](https://github.com/UnitVectorY-Labs/oidcfinder): Automates the discovery of OpenID Connect configuration URLs across list of domains.
