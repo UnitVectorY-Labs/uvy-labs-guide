@@ -39,17 +39,7 @@ updates:
       time: "07:00"
       timezone: "America/New_York"
     open-pull-requests-limit: 20
-  - package-ecosystem: "devcontainers"
-    directory: "/"
-    schedule:
-      interval: weekly
-      day: "saturday"
-      time: "07:00"
-      timezone: "America/New_York"
-    open-pull-requests-limit: 20
 ```
-
-This configuration file updates Maven dependencies, GitHub Actions, and Devcontainers weekly on Saturday at 7:00 AM Eastern Time.
 
 Other programming languages such as JavaScript can be configured to use Dependabot.  The following is an example configuration file for a JavaScript project:
 
