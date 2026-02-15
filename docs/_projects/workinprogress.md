@@ -18,3 +18,5 @@ The following applications are not yet ready for use and are [![Work In Progress
 [LockServiceCentral](https://github.com/UnitVectorY-Labs/LockServiceCentral): API that provides a simple interface for distributed locking with lease-based locks, supporting multiple backend systems.
 
 [worktreefoundry](https://github.com/UnitVectorY-Labs/worktreefoundry): A schema-driven tool for managing configuration data stored in a Git repo, with guardrails that make changes easy to review, validate, and safely publish.
+
+[itemservicecentral](https://github.com/UnitVectorY-Labs/itemservicecentral): A configuration driven service that exposes JSON Schema validated CRUD and index style query REST endpoints backed by PostgreSQL JSONB with JWT based access control.
