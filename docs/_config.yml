@@ -21,6 +21,9 @@ collections:
   bestpractices:
     output: true
     permalink: /:collection/:path/
+  uvyutilities:
+    output: true
+    permalink: /:collection/:path/
   javadevelopment:
     output: true
     permalink: /:collection/:path/
@@ -34,6 +37,9 @@ just_the_docs:
   collections:
     bestpractices:
       name: Best Practices
+      nav_fold: false
+    uvyutilities:
+      name: UVY Utilities
       nav_fold: false
     javadevelopment:
       name: Java Development
