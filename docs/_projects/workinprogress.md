@@ -20,3 +20,5 @@ The following applications are not yet ready for use and are [![Work In Progress
 [worktreefoundry](https://github.com/UnitVectorY-Labs/worktreefoundry): A schema-driven tool for managing configuration data stored in a Git repo, with guardrails that make changes easy to review, validate, and safely publish.
 
 [itemservicecentral](https://github.com/UnitVectorY-Labs/itemservicecentral): A configuration driven service that exposes JSON Schema validated CRUD and index style query REST endpoints backed by PostgreSQL JSONB with JWT based access control.
+
+[datacur8](https://github.com/UnitVectorY-Labs/datacur8): A config-driven CLI that validates and enforces cross-file integrity for structured JSON, YAML, and CSV datasets in a repo, then can export compiled outputs and deterministically tidy files for stable diffs.
