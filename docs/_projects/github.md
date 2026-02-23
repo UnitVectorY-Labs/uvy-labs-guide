@@ -24,3 +24,5 @@ The following are applications and utilities that are used in conjunction with G
 [bulkfilepr](https://github.com/UnitVectorY-Labs/bulkfilepr): Batch-update one or more standardized files across many local GitHub repositories, then commit the changes on a new branch and open pull requests back to each repository’s default branch.
 
 [ghprmerge](https://github.com/UnitVectorY-Labs/ghprmerge): A command-line tool to automatically evaluate, merge, and optionally rebase GitHub pull requests sharing the same source branch across an organization.
+
+[ghorgsync](https://github.com/UnitVectorY-Labs/ghorgsync): Clone and update all organization repositories in one folder, with clean-state and branch audits plus warnings for stray content.
