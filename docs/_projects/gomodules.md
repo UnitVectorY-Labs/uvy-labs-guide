@@ -1,11 +1,15 @@
 ---
 layout: default
-title: Go Modules
+title: Go
 ---
 
-# Go Modules
+# Go
 
 The following are Go modules that are published for use in other applications.
+
+## Utilities
+
+- [gogitup](https://github.com/UnitVectorY-Labs/gogitup): Stop manually checking versions. Keep the tools you installed with go install updated with a single command.
 
 ## Modules
 
