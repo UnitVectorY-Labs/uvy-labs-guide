@@ -13,10 +13,6 @@ The following are simple utilities that are helpful with web development.
 
 [jwks-observer](https://github.com/UnitVectorY-Labs/jwks-observer): Observes and records changes to public OIDC metadata and JWKS for services listed in the jwks-catalog.
 
-[jwks-catalog-crawler](https://github.com/UnitVectorY-Labs/jwks-catalog-crawler): Extracts URLs from jwks-catalog and publishes crawl requests to http-response-collector for HTTP response and header collection.
-
-[jwks-catalog-crawler-tofu](https://github.com/UnitVectorY-Labs/jwks-catalog-crawler-tofu): OpenTofu module for deploying jwks-catalog-crawler to GCP
-
 [dns-caa-catalog](https://github.com/UnitVectorY-Labs/dns-caa-catalog): Tracks CAA DNS configurations across top websites to surface insights on certificate issuance policies.
 
 ## Tools
