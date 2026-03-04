@@ -15,6 +15,8 @@ The following applications primarily focus on Artificial Intelligence.
 
 ## Containers
 
+[hallucinateapi](https://github.com/UnitVectorY-Labs/hallucinateapi): Implements every GET and POST operation in an OpenAPI spec by using each operation’s description as the LLM instruction, validating inputs, and returning schema-constrained JSON that behaves like a normal API response.
+
 [adk-docker-base](https://github.com/UnitVectorY-Labs/adk-docker-base): Docker image based on python docker image with Google Agent Development Kit (ADK) pre-installed for streamlined AI agent development.
 
 [gcspdf2mdapi](https://github.com/UnitVectorY-Labs/gcspdf2mdapi): An API that converts PDFs stored in Google Cloud Storage to Markdown format using OCR or direct text extraction.
