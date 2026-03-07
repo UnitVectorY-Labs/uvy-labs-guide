@@ -25,6 +25,8 @@ The following are simple utilities that are helpful with web development.
 
 ## Applications
 
+[gowebshot](https://github.com/UnitVectorY-Labs/gowebshot): Simple command line application for capturing screen shots of webpages.
+
 [gologhttpbinary](https://github.com/UnitVectorY-Labs/gologhttpbinary): A lightweight HTTP server that logs HTTP requests, including the body encoded in base64, enabling logging of binary payloads.
 
 [gologhttpjson](https://github.com/UnitVectorY-Labs/gologhttpjson): A lightweight HTTP server that logs HTTP requests containing JSON payloads, with optional header logging and environment-based metadata.
