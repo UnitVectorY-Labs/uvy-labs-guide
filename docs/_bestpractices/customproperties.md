@@ -34,6 +34,7 @@ The `programming-language` property is used to specify which programming languag
 - `OpenTofu` is used for Tofu modules
 - `Python` is used for Python projects
 - `HTML` is used for pure static web content
+- `Docker` is used for Docker images without a programming language component in the repo
 
 ## Project Type
 
