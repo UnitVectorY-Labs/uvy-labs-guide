@@ -13,6 +13,8 @@ ServiceAuthCentral is a centralized, open-source authorization service that simp
 
 [ServiceAuthCentral](https://github.com/UnitVectorY-Labs/ServiceAuthCentral): Simplify microservice security with ServiceAuthCentral: Centralized, open-source authorization in the cloud, minus the shared secrets.
 
+[authservicecentral](https://github.com/UnitVectorY-Labs/authservicecentral): Centralized OAuth 2.0 authorization for service-to-service JWT access tokens, with explicit audience and scope-based access control.
+
 ### Web Application
 
 [serviceauthcentralweb](https://github.com/UnitVectorY-Labs/serviceauthcentralweb): Web based management interface for ServiceCloudAuth

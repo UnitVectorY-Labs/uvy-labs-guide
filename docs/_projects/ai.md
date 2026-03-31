@@ -13,11 +13,23 @@ The following applications primarily focus on Artificial Intelligence.
 
 [json2mdplan](https://github.com/UnitVectorY-Labs/json2mdplan): Unix-style CLI that extracts structure-only JSON, uses Vertex AI (Gemini) structured outputs to generate a schema-validated Markdown plan, then renders Markdown locally from the original JSON without sending raw values to the model.
 
+## Agent Automation
+
+[release-storyteller](https://github.com/UnitVectorY-Labs/release-storyteller): Automatically turns GitHub releases into AI-generated announcement posts by researching code changes and drafting publishable markdown.
+
+[uvy-labs-blog](https://github.com/UnitVectorY-Labs/uvy-labs-blog): Blog for @UnitVectorY-Labs
+
 ## Containers
 
 [hallucinateapi](https://github.com/UnitVectorY-Labs/hallucinateapi): Implements every GET and POST operation in an OpenAPI spec by using each operation’s description as the LLM instruction, validating inputs, and returning schema-constrained JSON that behaves like a normal API response.
 
 [adk-docker-base](https://github.com/UnitVectorY-Labs/adk-docker-base): Docker image based on python docker image with Google Agent Development Kit (ADK) pre-installed for streamlined AI agent development.
+
+## Third Party Containers
+
+[docker-llama.cpp-cuda](https://github.com/UnitVectorY-Labs/docker-llama.cpp-cuda): Built from upstream llama.cpp as a CUDA-enabled llama-server container for local LLM inference with a simple, reproducible Docker workflow.
+
+[docker-llama-swap](https://github.com/UnitVectorY-Labs/docker-llama-swap): Built from upstream llama-swap as a Docker image with the necessary components to manage docker images on the host.
 
 [gcspdf2mdapi](https://github.com/UnitVectorY-Labs/gcspdf2mdapi): An API that converts PDFs stored in Google Cloud Storage to Markdown format using OCR or direct text extraction.
 
@@ -26,6 +38,8 @@ The following applications primarily focus on Artificial Intelligence.
 [mcp-graphql-forge](https://github.com/UnitVectorY-Labs/mcp-graphql-forge): A lightweight, configuration-driven MCP server that exposes curated GraphQL queries as modular tools, enabling intentional API interactions from your agents.
 
 [mcp-acronym-lookup](https://github.com/UnitVectorY-Labs/mcp-acronym-lookup): A lightweight, configuration-driven MCP server that ingests a CSV of acronyms and initialisms to expose a lookup tool for their full meanings and descriptions.
+
+[mcp-rest-forge](https://github.com/UnitVectorY-Labs/mcp-rest-forge): A lightweight, configuration-driven MCP server that exposes curated REST queries as modular tools, enabling intentional API interactions from your agents.
 
 [mcp-tf-provider-docs](https://github.com/UnitVectorY-Labs/mcp-tf-provider-docs): A configurable MCP server that indexes and serves Terraform/Tofu provider documentation from a local Git repo to power accurate, context-aware code generation.
 

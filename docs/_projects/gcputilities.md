@@ -13,6 +13,8 @@ The following are applications and ulities that are used in conjunction with Goo
 
 [gcp-iam-catalog](https://github.com/UnitVectorY-Labs/gcp-iam-catalog): A comprehensive catalog of GCP IAM roles and permissions, designed to easily identify which roles include a specific permission.
 
+[gcp-service-catalog](https://github.com/UnitVectorY-Labs/gcp-service-catalog): A catalog of GCP services for easy browsing and filtering
+
 ### Containers
 
 [firestore-batch-incrementer](https://github.com/UnitVectorY-Labs/firestore-batch-incrementer): Iterates through a Firestore collection in batches and atomically increments a specified root‑level numeric field with configurable rate limiting.
@@ -57,7 +59,9 @@ The following are applications and ulities that are used in conjunction with Goo
 
 ### Pub/Sub
 
-[http-response-collector](https://github.com/UnitVectorY-Labs/http-response-collector) - Retrieves HTTP responses and headers from specified endpoints and publishes the collected data to Google Cloud Pub/Sub for further processing.
+[http-response-collector](https://github.com/UnitVectorY-Labs/http-response-collector): Retrieves HTTP responses and headers from specified endpoints and publishes the collected data to Google Cloud Pub/Sub for further processing.
+
+[http-response-collector-tofu](https://github.com/UnitVectorY-Labs/http-response-collector-tofu): OpenTofu module for deploying a http-response-collector to GCP
 
 ### KMS - lockboxkms
 
@@ -73,6 +77,8 @@ The following are applications and ulities that are used in conjunction with Goo
 
 [gcp-cloud-run-iap-authui-tofu](https://github.com/UnitVectorY-Labs/gcp-cloud-run-iap-authui-tofu): Deploys GCP's IaP authui-container to Cloud Run as an internet facing endpoint.
 
+[gcp-pubsub-multiregion-push-demo-tofu](https://github.com/UnitVectorY-Labs/gcp-pubsub-multiregion-push-demo-tofu): OpenTofu reference showing Pub/Sub push behavior with global load balancing and multi-region Cloud Run consumers.
+
 [firestore-to-bigquery-tofu](https://github.com/UnitVectorY-Labs/firestore-to-bigquery-tofu): This module automates the scheduled export of Firestore data by triggering Cloud Run jobs that export to Cloud Storage and load the data into BigQuery.
 
 ### Data Replication
@@ -84,5 +90,7 @@ The following are applications and ulities that are used in conjunction with Goo
 [bqpubauditsink](https://github.com/UnitVectorY-Labs/bqpubauditsink): Ingests Pub/Sub audit JSON events and inserts the records into BigQuery.
 
 [bqpubauditsink-tofu](https://github.com/UnitVectorY-Labs/bqpubauditsink-tofu): A module for OpenTofu that deploys bqpubauditsink to GCP Cloud Run, along with configuring essential services including the Pub/Sub subscription and BigQuery dataset and table.
+
+[pubsub2postgresaudit](https://github.com/UnitVectorY-Labs/pubsub2postgresaudit): Pulls GCP Pub/Sub messages and persists payload + attributes to a PostgreSQL audit table.
 
 [valkeypubauditsink](https://github.com/UnitVectorY-Labs/valkeypubauditsink): Ingests Pub/Sub audit JSON events and synchronizes the records into Valkey (Redis).

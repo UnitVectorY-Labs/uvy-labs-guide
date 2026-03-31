@@ -11,7 +11,11 @@ The following are command line applications that provide functionality to enhanc
 
 [clip4llm](https://github.com/UnitVectorY-Labs/clip4llm): Supercharge your clipboard workflow with AI-driven precision—clip, filter, and feed your LLMs the content they crave.
 
+[frontmatterkit](https://github.com/UnitVectorY-Labs/frontmatterkit): A Unix-style CLI for validating, querying, asserting, and minimally updating front matter in Markdown files.
+
 [repver](https://github.com/UnitVectorY-Labs/repver): Automate batch replacement of simple strings, like version numbers, across multiple files and handle all Git steps with one command.
+
+[gitrepoforge](https://github.com/UnitVectorY-Labs/gitrepoforge): Command line application to audit and apply standard file patterns to Git repos.
 
 [YAMLtecture](https://github.com/UnitVectorY-Labs/YAMLtecture): A lightweight CLI tool for generating outputs, including Mermaid diagrams, from YAML-defined system architectures.
 

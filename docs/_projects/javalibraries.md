@@ -15,7 +15,7 @@ The following are Java libraries that are available on Maven Central.
 
 [jsonparamunit](https://github.com/UnitVectorY-Labs/jsonparamunit): Library for creating parameterized JUnit 5 tests based on JSON files.
 
-[fileparamunit](https://github.com/UnitVectorY-Labs/fileparamunit): Library for creating parameterized JUnit 5 tests based on files that exist in
+[fileparamunit](https://github.com/UnitVectorY-Labs/fileparamunit): Library for creating parameterized JUnit 5 tests based on files that exist in resources.
 
 ### Spring Boot
 
