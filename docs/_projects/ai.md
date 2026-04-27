@@ -13,6 +13,8 @@ The following applications primarily focus on Artificial Intelligence.
 
 [json2mdplan](https://github.com/UnitVectorY-Labs/json2mdplan): Unix-style CLI that extracts structure-only JSON, uses Vertex AI (Gemini) structured outputs to generate a schema-validated Markdown plan, then renders Markdown locally from the original JSON without sending raw values to the model.
 
+[goauthorllm](https://github.com/UnitVectorY-Labs/goauthorllm): A terminal UI for using an LLM to continue, review, and copy edit Markdown documents in place.
+
 ## Agent Automation
 
 [release-storyteller](https://github.com/UnitVectorY-Labs/release-storyteller): Automatically turns GitHub releases into AI-generated announcement posts by researching code changes and drafting publishable markdown.

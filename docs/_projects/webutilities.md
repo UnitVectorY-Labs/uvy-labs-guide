@@ -23,6 +23,8 @@ The following are simple utilities that are helpful with web development.
 
 [oidcfinder](https://github.com/UnitVectorY-Labs/oidcfinder): Automates the discovery of OpenID Connect configuration URLs across list of domains.
 
+[oidc-hunter](https://github.com/UnitVectorY-Labs/oidc-hunter): An autonomous agent that discovers public OpenID Connect endpoints, verifies them, and maintains a reviewable candidate set for catalog inclusion.
+
 ## Applications
 
 [gowebshot](https://github.com/UnitVectorY-Labs/gowebshot): Simple command line application for capturing screen shots of webpages.
