@@ -30,7 +30,7 @@ Tools that display progress or loading indicators should support a `--no-progres
 
 ## TUI Applications
 
-For interactive terminal user interfaces, prefer [Bubble Tea](https://github.com/charmbracelet/bubbletea) by Charm. It is the organization's established TUI framework, providing a clean functional programming model and a rich ecosystem of components.
+For interactive terminal user interfaces, prefer [Bubble Tea](https://github.com/charmbracelet/bubbletea) by Charm. This is a good default choice for building rich, interactive command line applications in Go.
 
 ## Help Output
 
@@ -43,13 +43,3 @@ Every command line application must provide a `--version` flag that prints the v
 ```
 projectName version vX.Y.Z (goX.Y, os/arch)
 ```
-
-## Exit Codes
-
-| Code | Meaning |
-|------|---------|
-| 0 | Success |
-| 1 | General error or flag parse failure |
-| 2 | Invalid usage or bad flags |
-
-Domain-specific exit codes (3-255) may be used when there is a need to distinguish error types for consumers of the tool.
