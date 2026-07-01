@@ -17,6 +17,8 @@ The following applications primarily focus on Artificial Intelligence.
 
 [localmodelproxy](https://github.com/UnitVectorY-Labs/localmodelproxy): Local OpenAI-compatible proxy for routing model requests across configurable backends while handling credentials and tracking token usage.
 
+[skilldrop](https://github.com/UnitVectorY-Labs/skilldrop): A command line application for managing Git-backed skill catalogs and safely placing selected skills into agent-specific workspace paths.
+
 ## Agent Automation
 
 [release-storyteller](https://github.com/UnitVectorY-Labs/release-storyteller): Automatically turns GitHub releases into AI-generated announcement posts by researching code changes and drafting publishable markdown.
