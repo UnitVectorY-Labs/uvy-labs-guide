@@ -39,6 +39,8 @@ The following are applications and utilities that are used in conjunction with G
 
 [ghorgsync](https://github.com/UnitVectorY-Labs/ghorgsync): Clone and update all organization repositories in one folder, with clean-state and branch audits plus warnings for stray content.
 
+[ghscanscope](https://github.com/UnitVectorY-Labs/ghscanscope): A local-first workbench for syncing, triaging, and finding patterns in GitHub code-scanning alerts across repositories.
+
 ### Generated Reports
 
 [unitvectory-labs-badgeindexer](https://github.com/UnitVectorY-Labs/unitvectory-labs-badgeindexer): badgeindexer for @UnitVectorY-Labs
