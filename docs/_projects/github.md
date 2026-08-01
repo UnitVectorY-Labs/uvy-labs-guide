@@ -25,6 +25,12 @@ The following are applications and utilities that are used in conjunction with G
 
 [ghwhenthen](https://github.com/UnitVectorY-Labs/ghwhenthen): A lightweight, configuration-driven service that consumes GitHub webhook events from Google Cloud Pub/Sub, evaluates declarative rules against message attributes and payloads, and executes ordered GitHub GraphQL actions.
 
+### Search
+
+[chromadb-repo-indexer](https://github.com/UnitVectorY-Labs/chromadb-repo-indexer): GitHub Action for taking the contents of a repo and maintaining an index in ChromaDB
+
+[mcp-chromadb-repo-search](https://github.com/UnitVectorY-Labs/mcp-chromadb-repo-search): An MCP server for semantically searching GitHub repository content indexed in ChromaDB.
+
 ### Command Line Utilities
 
 [badgeindexer](https://github.com/UnitVectorY-Labs/badgeindexer): Collects README badges across an organization and generates a structured dashboard with per-repo and per-badge detail pages.
