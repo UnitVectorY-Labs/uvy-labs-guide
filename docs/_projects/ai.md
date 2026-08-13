@@ -50,3 +50,5 @@ The following applications primarily focus on Artificial Intelligence.
 [mcp-tf-provider-docs](https://github.com/UnitVectorY-Labs/mcp-tf-provider-docs): A configurable MCP server that indexes and serves Terraform/Tofu provider documentation from a local Git repo to power accurate, context-aware code generation.
 
 [mcp-vertex-search-snippets](https://github.com/UnitVectorY-Labs/mcp-vertex-search-snippets): A lightweight MCP server that integrates with Vertex AI Search to retrieve configurable snippets and extractive segments for document discovery.
+
+[mcp-filter-proxy](https://github.com/UnitVectorY-Labs/mcp-filter-proxy): An MCP server that proxies requests to a remote MCP server while supporting tool filtering and auth header injection.
