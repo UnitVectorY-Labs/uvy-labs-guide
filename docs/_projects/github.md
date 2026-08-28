@@ -47,6 +47,8 @@ The following are applications and utilities that are used in conjunction with G
 
 [ghscanscope](https://github.com/UnitVectorY-Labs/ghscanscope): A local-first workbench for syncing, triaging, and finding patterns in GitHub code-scanning alerts across repositories.
 
+[ghrepocfg](https://github.com/UnitVectorY-Labs/ghrepocfg): Declaratively manage, review, export, and synchronize GitHub repository settings from a configuration file.
+
 ### Generated Reports
 
 [unitvectory-labs-badgeindexer](https://github.com/UnitVectorY-Labs/unitvectory-labs-badgeindexer): badgeindexer for @UnitVectorY-Labs
