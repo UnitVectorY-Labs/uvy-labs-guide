@@ -13,36 +13,69 @@ on:
 permissions: {}
 
 jobs:
-  scan-pr:
-    name: Scan pull request dependencies
-    if: ${{ github.event_name == 'pull_request' }}
-    permissions:
-      actions: read
-      contents: read
-      security-events: write
-    uses: google/osv-scanner-action/.github/workflows/osv-scanner-reusable-pr.yml@b1d267aea5211fa648d9d442fa64b90dbdcbdd36 # v2.7.0
-    with:
-      runs-on: arc-runner-set
-      fail-on-vuln: false
-      upload-sarif: true
-      scan-args: |-
-        --recursive
-        --allow-no-lockfiles
-        ./
-
-  scan-full:
+  scan:
     name: Scan all dependencies
-    if: ${{ github.event_name != 'pull_request' }}
+    runs-on: arc-runner-set
+    timeout-minutes: 30
     permissions:
       actions: read
       contents: read
       security-events: write
-    uses: google/osv-scanner-action/.github/workflows/osv-scanner-reusable.yml@b1d267aea5211fa648d9d442fa64b90dbdcbdd36 # v2.7.0
-    with:
-      runs-on: arc-runner-set
-      fail-on-vuln: false
-      upload-sarif: true
-      scan-args: |-
-        --recursive
-        --allow-no-lockfiles
-        ./
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+
+      # ARC runners do not provide a Docker daemon for the reusable workflows.
+      - name: Download verified native OSV-Scanner
+        shell: bash
+        run: |
+          set -euo pipefail
+          case "$(uname -m)" in
+            x86_64)
+              arch=amd64
+              checksum=160c6253e2922e9e0a6a9771c5c4c40a4b3c6090b34a3cdd5e80c96cc2e4218b
+              ;;
+            aarch64|arm64)
+              arch=arm64
+              checksum=4061ef4c021ed3c47f203b818f337e351336cc5cd67c0274fc36bd1dfc728dd7
+              ;;
+            *) echo "Unsupported runner architecture" >&2; exit 1 ;;
+          esac
+          curl --fail --silent --show-error --location --retry 3 \
+            "https://github.com/google/osv-scanner/releases/download/v2.7.0/osv-scanner_linux_${arch}" \
+            --output "${RUNNER_TEMP}/osv-scanner"
+          printf '%s  %s\n' "$checksum" "${RUNNER_TEMP}/osv-scanner" | sha256sum --check
+          chmod +x "${RUNNER_TEMP}/osv-scanner"
+
+      - name: Scan supported dependencies
+        shell: bash
+        run: |
+          set -uo pipefail
+          set +e
+          "${RUNNER_TEMP}/osv-scanner" scan source --recursive --allow-no-lockfiles \
+            --format=sarif --output-file=osv-results.sarif ./
+          status=$?
+          set -e
+          # Exit 1 reports vulnerabilities; other nonzero codes are scanner failures.
+          if [ "$status" -ne 0 ] && [ "$status" -ne 1 ]; then
+            exit "$status"
+          fi
+          test -s osv-results.sarif
+
+      - name: Upload SARIF to GitHub code scanning
+        uses: github/codeql-action/upload-sarif@24c54180a607b1449ed407dd24f251e4e9147c8d # v4.38.3
+        with:
+          sarif_file: osv-results.sarif
+          category: osv-scanner
+          wait-for-processing: true
+
+      - name: Preserve scan report
+        if: ${{ !cancelled() }}
+        uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9 # v7.0.2
+        with:
+          name: osv-scanner-sarif
+          path: osv-results.sarif
+          if-no-files-found: error
+          retention-days: 30
