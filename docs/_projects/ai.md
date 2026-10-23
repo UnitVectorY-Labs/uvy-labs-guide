@@ -37,6 +37,14 @@ The following applications primarily focus on Artificial Intelligence.
 
 [docker-llama-swap](https://github.com/UnitVectorY-Labs/docker-llama-swap): Built from upstream llama-swap as a Docker image with the necessary components to manage docker images on the host.
 
+[docker-breeze-tts](https://github.com/UnitVectorY-Labs/docker-breeze-tts): Lean CUDA/PyTorch runtime for Breeze-TTS-2 streaming inference on ARM64 and AMD64
+
+[docker-fish-speech](https://github.com/UnitVectorY-Labs/docker-fish-speech): Lean Fish Speech S2-Pro CUDA inference runtime for GB10 ARM64 and AMD64; externally mounted weights
+
+[docker-parakeet-tdt](https://github.com/UnitVectorY-Labs/docker-parakeet-tdt): Purpose-built NVIDIA Parakeet TDT GGUF CUDA transcription server with NeMo-Speech.cpp
+
+[docker-step-audio-editx](https://github.com/UnitVectorY-Labs/docker-step-audio-editx): Purpose-built Step-Audio-EditX CUDA 13 voice-cloning API; native ARM64/AMD64 images, external weights
+
 [gcspdf2mdapi](https://github.com/UnitVectorY-Labs/gcspdf2mdapi): An API that converts PDFs stored in Google Cloud Storage to Markdown format using OCR or direct text extraction.
 
 ## Omarchy

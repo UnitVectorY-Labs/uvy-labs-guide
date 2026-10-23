@@ -11,7 +11,7 @@ The following are applications that are used in conjunction with [EnvoyProxy](ht
 
 ### ExtAuthz
 
-[authzgcpk8stokeninjector](https://github.com/UnitVectorY-Labs/authzgcpk8stokeninjector):A gRPC-based ExtAuthz service for Envoy Proxy for injecting GCP identity tokens into requests in Kubernetes environments.
+[authzgcpk8stokeninjector](https://github.com/UnitVectorY-Labs/authzgcpk8stokeninjector): A gRPC-based ExtAuthz service for Envoy Proxy for injecting GCP identity tokens into requests in Kubernetes environments.
 
 [authzjwtbearerinjector](https://github.com/UnitVectorY-Labs/authzjwtbearerinjector): A gRPC-based ExtAuthz service for Envoy Proxy that implements the jwt-bearer flow, injecting authentication credentials to backend services.
 

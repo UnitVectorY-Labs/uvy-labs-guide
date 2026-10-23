@@ -19,6 +19,8 @@ The following are applications and utilities that are used in conjunction with G
 
 [github-release-fetcher](https://github.com/UnitVectorY-Labs/github-release-fetcher): A reusable GitHub Action that downloads one release asset (binary or archive) from a specified GitHub repo release.
 
+[delete-package-versions](https://github.com/UnitVectorY-Labs/delete-package-versions): A GitHub Action that deletes versions of a package from GitHub Packages, with support for retention policies and regex-based version exclusions.
+
 ### Automation Services
 
 [ghook2pubsub](https://github.com/UnitVectorY-Labs/ghook2pubsub): Consumes GitHub webhooks and publishes them to a GCP PubSub topic.
