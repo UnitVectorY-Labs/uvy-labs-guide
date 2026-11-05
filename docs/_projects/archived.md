@@ -9,6 +9,8 @@ The following repositories are archived projects and are kept for reference only
 
 ## Applications
 
+[ghwhenthen](https://github.com/UnitVectorY-Labs/ghwhenthen): Superseded by ghook4action. Archived predecessor for configurable GitHub webhook to Pub/Sub to Projects automation.
+
 [jwks-catalog-crawler](https://github.com/UnitVectorY-Labs/jwks-catalog-crawler): Extracts URLs from jwks-catalog and publishes crawl requests to http-response-collector for HTTP response and header collection.
 
 [mcp-markdown-rag](https://github.com/UnitVectorY-Labs/mcp-markdown-rag): A local-first command-line tool for indexing and semantically searching Markdown documents using vector embeddings and a self-contained vector database.

@@ -24,3 +24,5 @@ The following are command line applications that provide functionality to enhanc
 [ghrelgrab](https://github.com/UnitVectorY-Labs/ghrelgrab): Fetches and extracts a specified version of a GitHub release asset from a chosen repository for the current or mapped system architecture.
 
 [cfgraft](https://github.com/UnitVectorY-Labs/cfgraft): A small Unix-style TUI and CLI for safely syncing files and directories from Git repositories into local configuration paths.
+
+[btfling](https://github.com/UnitVectorY-Labs/btfling): Encrypted Bluetooth file and binary stream transfers with a Go CLI and terminal UI

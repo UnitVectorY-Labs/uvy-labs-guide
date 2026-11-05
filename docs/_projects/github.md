@@ -25,7 +25,7 @@ The following are applications and utilities that are used in conjunction with G
 
 [ghook2pubsub](https://github.com/UnitVectorY-Labs/ghook2pubsub): Consumes GitHub webhooks and publishes them to a GCP PubSub topic.
 
-[ghwhenthen](https://github.com/UnitVectorY-Labs/ghwhenthen): A lightweight, configuration-driven service that consumes GitHub webhook events from Google Cloud Pub/Sub, evaluates declarative rules against message attributes and payloads, and executes ordered GitHub GraphQL actions.
+[ghook4action](https://github.com/UnitVectorY-Labs/ghook4action): A configurable rules engine for GitHub webhook events delivered through Google Cloud Pub/Sub.
 
 ### Search
 
@@ -50,6 +50,8 @@ The following are applications and utilities that are used in conjunction with G
 [ghscanscope](https://github.com/UnitVectorY-Labs/ghscanscope): A local-first workbench for syncing, triaging, and finding patterns in GitHub code-scanning alerts across repositories.
 
 [ghrepocfg](https://github.com/UnitVectorY-Labs/ghrepocfg): Declaratively manage, review, export, and synchronize GitHub repository settings from a configuration file.
+
+[ghaqueue](https://github.com/UnitVectorY-Labs/ghaqueue): Command-line observability for GitHub Actions queues across an organization, repositories, workflows, and runners.
 
 ### Generated Reports
 
