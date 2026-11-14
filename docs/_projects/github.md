@@ -21,6 +21,8 @@ The following are applications and utilities that are used in conjunction with G
 
 [delete-package-versions](https://github.com/UnitVectorY-Labs/delete-package-versions): A GitHub Action that deletes versions of a package from GitHub Packages, with support for retention policies and regex-based version exclusions.
 
+[ghadashboard](https://github.com/UnitVectorY-Labs/ghadashboard): Real-time visibility into GitHub Actions across repositories.
+
 ### Automation Services
 
 [ghook2pubsub](https://github.com/UnitVectorY-Labs/ghook2pubsub): Consumes GitHub webhooks and publishes them to a GCP PubSub topic.
