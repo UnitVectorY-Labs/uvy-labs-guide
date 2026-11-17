@@ -23,6 +23,8 @@ The following are applications and utilities that are used in conjunction with G
 
 [ghadashboard](https://github.com/UnitVectorY-Labs/ghadashboard): Real-time visibility into GitHub Actions across repositories.
 
+[sarif-filter-suppressed](https://github.com/UnitVectorY-Labs/sarif-filter-suppressed): Remove suppressed findings from SARIF reports before upload to consumers that do not honor suppression markers
+
 ### Automation Services
 
 [ghook2pubsub](https://github.com/UnitVectorY-Labs/ghook2pubsub): Consumes GitHub webhooks and publishes them to a GCP PubSub topic.
