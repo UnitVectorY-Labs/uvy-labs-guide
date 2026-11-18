@@ -84,5 +84,3 @@ The following are applications and ulities that are used in conjunction with Goo
 ### Data Replication
 
 [pubsub2postgresaudit](https://github.com/UnitVectorY-Labs/pubsub2postgresaudit): Pulls GCP Pub/Sub messages and persists payload + attributes to a PostgreSQL audit table.
-
-[valkeypubauditsink](https://github.com/UnitVectorY-Labs/valkeypubauditsink): Ingests Pub/Sub audit JSON events and synchronizes the records into Valkey (Redis).
