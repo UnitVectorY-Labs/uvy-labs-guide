@@ -9,12 +9,6 @@ The following applications are not yet ready for use and are [![Work In Progress
 
 ## Application 
 
-[cron-conductor-core](https://github.com/UnitVectorY-Labs/cron-conductor-core): Core Java library for cron-conductor providing the interfaces and main logic.
-
-[serviceauditreport](https://github.com/UnitVectorY-Labs/serviceauditreport): A tool for auditing and reporting on the configuration compliance of various services
-
-[devicekeyregistry](https://github.com/UnitVectorY-Labs/devicekeyregistry): DeviceKeyRegistry is an API for securely registering, approving, disabling, and validating device public keys using JWTs and JWKS URLs.
-
 [LockServiceCentral](https://github.com/UnitVectorY-Labs/LockServiceCentral): API that provides a simple interface for distributed locking with lease-based locks, supporting multiple backend systems.
 
 [worktreefoundry](https://github.com/UnitVectorY-Labs/worktreefoundry): A schema-driven tool for managing configuration data stored in a Git repo, with guardrails that make changes easy to review, validate, and safely publish.

@@ -29,8 +29,6 @@ The following applications primarily focus on Artificial Intelligence.
 
 [hallucinateapi](https://github.com/UnitVectorY-Labs/hallucinateapi): Implements every GET and POST operation in an OpenAPI spec by using each operation’s description as the LLM instruction, validating inputs, and returning schema-constrained JSON that behaves like a normal API response.
 
-[adk-docker-base](https://github.com/UnitVectorY-Labs/adk-docker-base): Docker image based on python docker image with Google Agent Development Kit (ADK) pre-installed for streamlined AI agent development.
-
 ## Third Party Containers
 
 [docker-llama.cpp-cuda](https://github.com/UnitVectorY-Labs/docker-llama.cpp-cuda): Built from upstream llama.cpp as a CUDA-enabled llama-server container for local LLM inference with a simple, reproducible Docker workflow.

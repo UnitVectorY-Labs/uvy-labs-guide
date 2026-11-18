@@ -81,8 +81,6 @@ The following are applications and ulities that are used in conjunction with Goo
 
 [gcp-pubsub-multiregion-push-demo-tofu](https://github.com/UnitVectorY-Labs/gcp-pubsub-multiregion-push-demo-tofu): OpenTofu reference showing Pub/Sub push behavior with global load balancing and multi-region Cloud Run consumers.
 
-[firestore-to-bigquery-tofu](https://github.com/UnitVectorY-Labs/firestore-to-bigquery-tofu): This module automates the scheduled export of Firestore data by triggering Cloud Run jobs that export to Cloud Storage and load the data into BigQuery.
-
 ### Data Replication
 
 [pubsub2postgresaudit](https://github.com/UnitVectorY-Labs/pubsub2postgresaudit): Pulls GCP Pub/Sub messages and persists payload + attributes to a PostgreSQL audit table.

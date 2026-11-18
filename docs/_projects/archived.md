@@ -9,6 +9,12 @@ The following repositories are archived projects and are kept for reference only
 
 ## Applications
 
+[valkeypubauditsink](https://github.com/UnitVectorY-Labs/valkeypubauditsink): Ingests Pub/Sub audit JSON events and synchronizes the records into Valkey (Redis).
+
+[devicekeyregistry](https://github.com/UnitVectorY-Labs/devicekeyregistry): DeviceKeyRegistry is an API for securely registering, approving, disabling, and validating device public keys using JWTs and JWKS URLs.
+
+[serviceauditreport](https://github.com/UnitVectorY-Labs/serviceauditreport): A tool for auditing and reporting on the configuration compliance of various services
+
 [firepubauditsource](https://github.com/UnitVectorY-Labs/firepubauditsource): Publishes Firestore data changes to Pub/Sub as JSON audit records for downstream processing.
 
 [bqpubauditsink](https://github.com/UnitVectorY-Labs/bqpubauditsink): Ingests Pub/Sub audit JSON events and inserts the records into BigQuery.
@@ -23,8 +29,18 @@ The following repositories are archived projects and are kept for reference only
 
 ## Deployment
 
+[firestore-to-bigquery-tofu](https://github.com/UnitVectorY-Labs/firestore-to-bigquery-tofu): This module automates the scheduled export of Firestore data by triggering Cloud Run jobs that export to Cloud Storage and load the data into BigQuery.
+
 [firepubauditsource-tofu](https://github.com/UnitVectorY-Labs/firepubauditsource-tofu): A module for OpenTofu that deploys firepubauditsource to GCP Cloud Run, along with configuring essential services including Eventarc for Firestore and Pub/Sub.
 
 [bqpubauditsink-tofu](https://github.com/UnitVectorY-Labs/bqpubauditsink-tofu): A module for OpenTofu that deploys bqpubauditsink to GCP Cloud Run, along with configuring essential services including the Pub/Sub subscription and BigQuery dataset and table.
 
 [jwks-catalog-crawler-tofu](https://github.com/UnitVectorY-Labs/jwks-catalog-crawler-tofu): OpenTofu module for deploying jwks-catalog-crawler to GCP
+
+## Libraries
+
+[cron-conductor-core](https://github.com/UnitVectorY-Labs/cron-conductor-core): Core Java library for cron-conductor providing the interfaces and main logic.
+
+## Container Images
+
+[adk-docker-base](https://github.com/UnitVectorY-Labs/adk-docker-base): Docker image based on python docker image with Google Agent Development Kit (ADK) pre-installed for streamlined AI agent development.
