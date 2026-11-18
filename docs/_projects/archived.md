@@ -9,6 +9,8 @@ The following repositories are archived projects and are kept for reference only
 
 ## Applications
 
+[crossfiresyncrun](https://github.com/UnitVectorY-Labs/crossfiresyncrun): Provides real-time synchronization between GCP Firestore instances across regions using Pub/Sub, packaged as a Docker image for deployment on Cloud Run.
+
 [valkeypubauditsink](https://github.com/UnitVectorY-Labs/valkeypubauditsink): Ingests Pub/Sub audit JSON events and synchronizes the records into Valkey (Redis).
 
 [devicekeyregistry](https://github.com/UnitVectorY-Labs/devicekeyregistry): DeviceKeyRegistry is an API for securely registering, approving, disabling, and validating device public keys using JWTs and JWKS URLs.
