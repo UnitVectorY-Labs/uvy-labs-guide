@@ -9,6 +9,10 @@ The following repositories are archived projects and are kept for reference only
 
 ## Applications
 
+[crossfiresync-firestore](https://github.com/UnitVectorY-Labs/crossfiresync-firestore): Reference implementation of a crossfiresync Firestore publisher, featuring Java code and deployment scripts for Cloud Functions.
+
+[crossfiresync-pubsub](https://github.com/UnitVectorY-Labs/crossfiresync-pubsub): Reference implementation of a crossfiresync Pub/Sub consumer, featuring Java code and deployment scripts for Cloud Functions.
+
 [crossfiresyncrun](https://github.com/UnitVectorY-Labs/crossfiresyncrun): Provides real-time synchronization between GCP Firestore instances across regions using Pub/Sub, packaged as a Docker image for deployment on Cloud Run.
 
 [valkeypubauditsink](https://github.com/UnitVectorY-Labs/valkeypubauditsink): Ingests Pub/Sub audit JSON events and synchronizes the records into Valkey (Redis).
@@ -31,6 +35,8 @@ The following repositories are archived projects and are kept for reference only
 
 ## Deployment
 
+[crossfiresyncrun-tofu](https://github.com/UnitVectorY-Labs/crossfiresyncrun-tofu): A module for OpenTofu that deploys crossfiresyncrun to GCP Cloud Run, along with configuring essential services including Firestore and Pub/Sub.
+
 [firestore-to-bigquery-tofu](https://github.com/UnitVectorY-Labs/firestore-to-bigquery-tofu): This module automates the scheduled export of Firestore data by triggering Cloud Run jobs that export to Cloud Storage and load the data into BigQuery.
 
 [firepubauditsource-tofu](https://github.com/UnitVectorY-Labs/firepubauditsource-tofu): A module for OpenTofu that deploys firepubauditsource to GCP Cloud Run, along with configuring essential services including Eventarc for Firestore and Pub/Sub.
@@ -40,6 +46,8 @@ The following repositories are archived projects and are kept for reference only
 [jwks-catalog-crawler-tofu](https://github.com/UnitVectorY-Labs/jwks-catalog-crawler-tofu): OpenTofu module for deploying jwks-catalog-crawler to GCP
 
 ## Libraries
+
+[crossfiresync](https://github.com/UnitVectorY-Labs/crossfiresync): A Java library enabling real-time synchronization between GCP Firestore instances across regions using Pub/Sub.
 
 [cron-conductor-core](https://github.com/UnitVectorY-Labs/cron-conductor-core): Core Java library for cron-conductor providing the interfaces and main logic.
 
