@@ -1,20 +1,49 @@
 title: UnitVectorY Labs
-description: "Useful information and Guides from UnitVectorY Labs"
+description: "Documentation and guides from @UnitVectorY-Labs"
 
-remote_theme: just-the-docs/just-the-docs@v0.12.0
+remote_theme: UnitVectorY-Labs/uvy-docs-theme@v0.2.0
 plugins:
   - jekyll-remote-theme
 
-color_scheme: dark
-
-#logo: "/assets/logo_transparent.png"
-
-baseurl: /
+callouts:
+  highlight:
+    color: yellow
+  important:
+    title: Important
+    color: blue
+  new:
+    title: New
+    color: green
+  note:
+    title: Note
+    color: purple
+  warning:
+    title: Warning
+    color: red
 
 mermaid:
   # Version of mermaid library
   # Pick an available version from https://cdn.jsdelivr.net/npm/mermaid/
-  version: "11.12.3"
+  version: "12.3.0" # MERMAIDVERSION
+
+# External navigation links
+nav_external_links:
+  - title: uvy-labs-guide on GitHub
+    url: https://github.com/UnitVectorY-Labs/uvy-labs-guide
+
+# Footer "Edit this page on GitHub" link text
+gh_edit_link: true
+gh_edit_link_text: "Edit this page on GitHub."
+gh_edit_repository: "https://github.com/UnitVectorY-Labs/uvy-labs-guide"
+gh_edit_branch: "main"
+gh_edit_source: "docs"
+gh_edit_view_mode: "tree"
+
+# Repository-specific settings preserved from the previous configuration.
+# These are not yet expressible as gitrepoforge config keys, so this file
+# intentionally drifts from the docs/_config.yml template. See the
+# uvy-labs-guide gitrepoforge retrofit PR description for follow-ups.
+baseurl: /
 
 # Collections
 collections:
@@ -50,27 +79,3 @@ just_the_docs:
     projects:
       name: Projects
       nav_fold: false
-
-# Footer "Edit this page on GitHub" link text
-gh_edit_link: true
-gh_edit_link_text: "Edit this page on GitHub."
-gh_edit_repository: "https://github.com/UnitVectorY-Labs/uvy-labs-guide"
-gh_edit_branch: "main"
-gh_edit_source: "docs"
-gh_edit_view_mode: "tree"
-
-callouts:
-  highlight:
-    color: yellow
-  important:
-    title: Important
-    color: blue
-  new:
-    title: New
-    color: green
-  note:
-    title: Note
-    color: purple
-  warning:
-    title: Warning
-    color: red

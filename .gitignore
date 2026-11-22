@@ -1,6 +1,7 @@
-# Created by https://www.toptal.com/developers/gitignore/api/macos,visualstudiocode
-# Edit at https://www.toptal.com/developers/gitignore?templates=macos,visualstudiocode
+# This .gitignore file is generated from a .gitrepoforge template.
+# Do not directly edit this file as it will be overwritten by the .gitrepoforge template.
 
+# https://www.toptal.com/developers/gitignore/api/macos
 ### macOS ###
 # General
 .DS_Store
@@ -34,6 +35,50 @@ Temporary Items
 # iCloud generated files
 *.icloud
 
+# https://www.toptal.com/developers/gitignore/api/windows
+### Windows ###
+# Windows thumbnail cache files
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+
+# Dump file
+*.stackdump
+
+# Folder config file
+[Dd]esktop.ini
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+
+# Windows Installer files
+*.cab
+*.msi
+*.msix
+*.msm
+*.msp
+
+# Windows shortcuts
+*.lnk
+
+# https://www.toptal.com/developers/gitignore/api/linux
+### Linux ###
+*~
+
+# temporary files which can be created if a process still has a handle open of a deleted file
+.fuse_hidden*
+
+# KDE directory preferences
+.directory
+
+# Linux trash folder which might appear on any partition or disk
+.Trash-*
+
+# .nfs files are created when an open file is removed but is still being accessed
+.nfs*
+
+# https://www.toptal.com/developers/gitignore/api/visualstudiocode
 ### VisualStudioCode ###
 .vscode/*
 !.vscode/settings.json
@@ -53,4 +98,6 @@ Temporary Items
 .history
 .ionide
 
-# End of https://www.toptal.com/developers/gitignore/api/macos,visualstudiocode
+## Universal Ignore Patterns
+
+*.log
