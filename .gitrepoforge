@@ -1,0 +1,10 @@
+name: uvy-labs-guide
+default_branch: main
+config:
+  description: "Documentation and guides from @UnitVectorY-Labs"
+  license: none
+  language: none
+  status: active
+  docs:
+    enabled: true
+    domain: guide.unitvectorylabs.com
