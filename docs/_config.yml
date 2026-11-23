@@ -1,7 +1,7 @@
 title: UnitVectorY Labs
 description: "Documentation and guides from @UnitVectorY-Labs"
 
-remote_theme: UnitVectorY-Labs/uvy-docs-theme@v0.3.0
+remote_theme: UnitVectorY-Labs/uvy-docs-theme@v0.4.0
 plugins:
   - jekyll-remote-theme
 
