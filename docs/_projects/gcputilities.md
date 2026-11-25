@@ -47,6 +47,8 @@ The following are applications and ulities that are used in conjunction with Goo
 
 [pubsubmsgrestforwarder](https://github.com/UnitVectorY-Labs/pubsubmsgrestforwarder): A Go command-line application for local testing, simulating the Cloud Run Push use case by consuming Pub/Sub messages and forwarding them as RESTful HTTP POST requests.
 
+[pubsub2webhook](https://github.com/UnitVectorY-Labs/pubsub2webhook): Pulls GCP Pub/Sub messages and replays them as HTTP webhook requests.
+
 ### Pub/Sub
 
 [http-response-collector](https://github.com/UnitVectorY-Labs/http-response-collector): Retrieves HTTP responses and headers from specified endpoints and publishes the collected data to Google Cloud Pub/Sub for further processing.

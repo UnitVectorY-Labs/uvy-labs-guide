@@ -13,6 +13,8 @@ The following repositories publish documentation, notes, conventions, and other 
 
 [uvy-design](https://github.com/UnitVectorY-Labs/uvy-design): Shared design language, research, and reviewable patterns for UnitVectorY-Labs websites.
 
+[uvy-docs-theme](https://github.com/UnitVectorY-Labs/uvy-docs-theme): Standardized Jekyll remote theme implementing UnitVectorY-Labs Design for GitHub Pages documentation.
+
 ## Guides and Notes
 
 [uvy-labs-guide](https://github.com/UnitVectorY-Labs/uvy-labs-guide): Documentation and guides from @UnitVectorY-Labs

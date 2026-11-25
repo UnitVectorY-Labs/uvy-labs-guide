@@ -33,6 +33,8 @@ The following applications primarily focus on Artificial Intelligence.
 
 [docker-llama.cpp-cuda](https://github.com/UnitVectorY-Labs/docker-llama.cpp-cuda): Built from upstream llama.cpp as a CUDA-enabled llama-server container for local LLM inference with a simple, reproducible Docker workflow.
 
+[docker-TensorFold](https://github.com/UnitVectorY-Labs/docker-TensorFold): Built from upstream TensorFold as a CUDA-enabled tensorfold-native container for local LLM inference with a simple, reproducible Docker workflow.
+
 [docker-llama-swap](https://github.com/UnitVectorY-Labs/docker-llama-swap): Built from upstream llama-swap as a Docker image with the necessary components to manage docker images on the host.
 
 [docker-breeze-tts](https://github.com/UnitVectorY-Labs/docker-breeze-tts): Lean CUDA/PyTorch runtime for Breeze-TTS-2 streaming inference on ARM64 and AMD64
